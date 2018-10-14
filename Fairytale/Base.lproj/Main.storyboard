@@ -13,7 +13,7 @@
         <!--ReadingView-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="ReadingView" id="BYZ-38-t0r" customClass="ViewController" customModule="Fairytale" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ReadingBoard" title="ReadingView" id="BYZ-38-t0r" customClass="ViewController" customModule="Fairytale" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -59,7 +59,6 @@
                                         <state key="normal" title="setting" image="settings"/>
                                         <connections>
                                             <action selector="SettingButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TxS-37-HLV"/>
-                                            <segue destination="V3L-od-RbD" kind="show" id="EmU-nu-f01"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WHh-2j-g7t">
@@ -85,7 +84,7 @@
         <!--SettingView-->
         <scene sceneID="hNt-fv-Njc">
             <objects>
-                <viewController title="SettingView" id="V3L-od-RbD" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SettingView" title="SettingView" id="V3L-od-RbD" customClass="SettingViewController" customModule="Fairytale" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sWU-b2-ohU">
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -101,6 +100,9 @@
                                 <rect key="frame" x="549" y="173" width="84" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back Button"/>
+                                <connections>
+                                    <action selector="ReturnButton:" destination="V3L-od-RbD" eventType="touchUpInside" id="cP0-Pl-q6r"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

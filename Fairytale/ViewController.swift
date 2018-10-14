@@ -13,7 +13,6 @@ import SCLAlertView
 class ViewController : UIViewController{
 
     
-    
     override func viewDidLoad() {
          super.viewDidLoad()
     }
@@ -24,7 +23,11 @@ class ViewController : UIViewController{
     }
 
     @IBAction func SettingButton(_ sender: Any) {
-       
+       let uvc = self.storyboard?.instantiateViewController(withIdentifier: "SettingView")
+        uvc?.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
+        
+        
+        self.present(uvc!,animated:true, completion:nil)
     }
     @IBAction func SlideShowButton(_ sender: Any) {
          SCLAlertView().showInfo("Important info", subTitle: "You are great")
