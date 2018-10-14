@@ -1,0 +1,28 @@
+PODS:
+  - ActiveLabel (1.0.1)
+  - Persei (3.1.1)
+  - PySwiftyRegex (2.0.1)
+  - SCLAlertView (0.8)
+
+DEPENDENCIES:
+  - ActiveLabel
+  - Persei
+  - PySwiftyRegex
+  - SCLAlertView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ActiveLabel
+    - Persei
+    - PySwiftyRegex
+    - SCLAlertView
+
+SPEC CHECKSUMS:
+  ActiveLabel: b8b2396fe25308d563601437d6605bf691c3b5db
+  Persei: 6d36b54e40eccd437211548d3f897269c85d3a13
+  PySwiftyRegex: 18ee6bede93377ce133ca9c1e8cc0446ac988be4
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+
+PODFILE CHECKSUM: c28a089bc0cffae9f7bd6c696becd91d361f6c8d
+
+COCOAPODS: 1.5.3
