@@ -21,7 +21,6 @@
 		6E25E3D521735BD400A99597 /* Persei.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E25E3D921735BD400A99597 /* Persei.framework */; };
 		6E25E3D621735BD400A99597 /* PySwiftyRegex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E25E3DA21735BD400A99597 /* PySwiftyRegex.framework */; };
 		6E25E3D721735BD400A99597 /* SCLAlertView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E25E3DB21735BD400A99597 /* SCLAlertView.framework */; };
-		6E25E3DC21736B7100A99597 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E25E3DD21736B7100A99597 /* Eureka.framework */; };
 		C3C16267CBB7568F6B4118DF /* Pods_Fairytale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A4DF2A075874F749BC26498 /* Pods_Fairytale.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E25E3DC21736B7100A99597 /* Eureka.framework in Frameworks */,
 				6E25E3D421735BD400A99597 /* ActiveLabel.framework in Frameworks */,
 				6E25E3D521735BD400A99597 /* Persei.framework in Frameworks */,
 				6E25E3D621735BD400A99597 /* PySwiftyRegex.framework in Frameworks */,

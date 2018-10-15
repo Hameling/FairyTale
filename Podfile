@@ -9,7 +9,7 @@ target 'Fairytale' do
   pod 'ActiveLabel'
   pod 'PySwiftyRegex'
   pod 'SCLAlertView'
-
+  
   # Pods for Fairytale
 
 end
