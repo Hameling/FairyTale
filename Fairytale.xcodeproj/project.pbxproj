@@ -21,6 +21,7 @@
 		6E25E3D521735BD400A99597 /* Persei.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E25E3D921735BD400A99597 /* Persei.framework */; };
 		6E25E3D621735BD400A99597 /* PySwiftyRegex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E25E3DA21735BD400A99597 /* PySwiftyRegex.framework */; };
 		6E25E3D721735BD400A99597 /* SCLAlertView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E25E3DB21735BD400A99597 /* SCLAlertView.framework */; };
+		6E25E40221771B5400A99597 /* test in Resources */ = {isa = PBXBuildFile; fileRef = 6E25E40121771B5400A99597 /* test */; };
 		C3C16267CBB7568F6B4118DF /* Pods_Fairytale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A4DF2A075874F749BC26498 /* Pods_Fairytale.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		6E25E3DA21735BD400A99597 /* PySwiftyRegex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PySwiftyRegex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E25E3DB21735BD400A99597 /* SCLAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E25E3DD21736B7100A99597 /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E25E40121771B5400A99597 /* test */ = {isa = PBXFileReference; lastKnownFileType = text; path = test; sourceTree = "<group>"; };
 		8A4DF2A075874F749BC26498 /* Pods_Fairytale.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fairytale.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCBF0E2658F12C2D5380DEE2 /* Pods-Fairytale.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fairytale.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fairytale/Pods-Fairytale.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,16 +98,25 @@
 				6E25E3A92170639A00A99597 /* AppDelegate.swift */,
 				6E25E3AB2170639A00A99597 /* ViewController.swift */,
 				6E25E3D22173542000A99597 /* SettingViewController.swift */,
-				6E25E3B02170639B00A99597 /* Assets.xcassets */,
 				6E25E3CF2173540300A99597 /* Main.storyboard */,
 				6E25E3B22170639B00A99597 /* LaunchScreen.storyboard */,
-				6E25E3BB21709FF200A99597 /* Book.swift */,
 				6E25E3BD217321F900A99597 /* Subject.swift */,
+				6E25E3BB21709FF200A99597 /* Book.swift */,
 				6E25E3BF2173226400A99597 /* Keyword.swift */,
 				6E25E3C12173228F00A99597 /* Setting.swift */,
 				6E25E3B52170639B00A99597 /* Info.plist */,
+				6E25E3B02170639B00A99597 /* Assets.xcassets */,
+				6E25E40021771A6C00A99597 /* Books */,
 			);
 			path = Fairytale;
+			sourceTree = "<group>";
+		};
+		6E25E40021771A6C00A99597 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				6E25E40121771B5400A99597 /* test */,
+			);
+			path = Books;
 			sourceTree = "<group>";
 		};
 		B1D56695082A98C4C16F4B71 /* Frameworks */ = {
@@ -182,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E25E40221771B5400A99597 /* test in Resources */,
 				6E25E3D12173540300A99597 /* Main.storyboard in Resources */,
 				6E25E3B42170639B00A99597 /* LaunchScreen.storyboard in Resources */,
 				6E25E3B12170639B00A99597 /* Assets.xcassets in Resources */,

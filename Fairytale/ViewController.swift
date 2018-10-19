@@ -9,12 +9,19 @@
 import UIKit
 import ActiveLabel
 import SCLAlertView
+import PySwiftyRegex
 
 class ViewController : UIViewController{
 
     
     override func viewDidLoad() {
-         super.viewDidLoad()
+        super.viewDidLoad()
+        //File system 생각할 필요가 있음
+        
+        //let filemgr = FileManager()
+        //let dirpath = "./RecordFile"
+        //name="()"
+        
     }
     
     override func didReceiveMemoryWarning() {

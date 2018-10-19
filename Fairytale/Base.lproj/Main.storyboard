@@ -13,7 +13,7 @@
         <!--ReadingView-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="ReadingBoard" title="ReadingView" id="BYZ-38-t0r" customClass="ViewController" customModule="Fairytale" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ReadingBoard" title="ReadingView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="Fairytale" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -85,7 +85,7 @@
         <!--SettingView-->
         <scene sceneID="hNt-fv-Njc">
             <objects>
-                <viewController storyboardIdentifier="SettingView" title="SettingView" id="V3L-od-RbD" customClass="SettingViewController" customModule="Fairytale" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SettingView" title="SettingView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="V3L-od-RbD" customClass="SettingViewController" customModule="Fairytale" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sWU-b2-ohU">
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -96,14 +96,14 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SettingView" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJR-TL-nhS">
                                         <rect key="frame" x="287" y="17" width="92" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5VJ-h5-rja">
                                         <rect key="frame" x="608" y="12" width="40" height="33"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
                                         <state key="normal" title="Back Button" image="back"/>
                                         <connections>
                                             <action selector="ReturnButton:" destination="V3L-od-RbD" eventType="touchUpInside" id="cP0-Pl-q6r"/>

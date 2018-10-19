@@ -12,7 +12,7 @@ class Book {
     //책의 이름
     var book_name : String
     //책에 사용될 단어들 리스트
-    
+    var keywordlist : [String]?
     //책의 본문
     
     init(book_name:String, book_tag:String){
