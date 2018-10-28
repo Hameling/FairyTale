@@ -21,8 +21,8 @@
 		6E25E3D521735BD400A99597 /* Persei.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E25E3D921735BD400A99597 /* Persei.framework */; };
 		6E25E3D621735BD400A99597 /* PySwiftyRegex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E25E3DA21735BD400A99597 /* PySwiftyRegex.framework */; };
 		6E25E3D721735BD400A99597 /* SCLAlertView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E25E3DB21735BD400A99597 /* SCLAlertView.framework */; };
-		95865C7B2185CBD000C0C9A2 /* fairytales.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 95865C7A2185CBD000C0C9A2 /* fairytales.bundle */; };
 		95865C7D2185CD1E00C0C9A2 /* TextBoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95865C7C2185CD1E00C0C9A2 /* TextBoardCell.swift */; };
+		95865C802186135600C0C9A2 /* fairytales.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 95865C7F2186135600C0C9A2 /* fairytales.bundle */; };
 		C3C16267CBB7568F6B4118DF /* Pods_Fairytale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A4DF2A075874F749BC26498 /* Pods_Fairytale.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,8 +46,8 @@
 		6E25E3DB21735BD400A99597 /* SCLAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E25E3DD21736B7100A99597 /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4DF2A075874F749BC26498 /* Pods_Fairytale.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fairytale.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		95865C7A2185CBD000C0C9A2 /* fairytales.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = fairytales.bundle; path = ../../fairytales.bundle; sourceTree = "<group>"; };
 		95865C7C2185CD1E00C0C9A2 /* TextBoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBoardCell.swift; sourceTree = "<group>"; };
+		95865C7F2186135600C0C9A2 /* fairytales.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = fairytales.bundle; sourceTree = "<group>"; };
 		FCBF0E2658F12C2D5380DEE2 /* Pods-Fairytale.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fairytale.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fairytale/Pods-Fairytale.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,8 +97,8 @@
 		6E25E3A82170639A00A99597 /* Fairytale */ = {
 			isa = PBXGroup;
 			children = (
+				95865C7F2186135600C0C9A2 /* fairytales.bundle */,
 				95865C7E2185CD2900C0C9A2 /* Class */,
-				95865C7A2185CBD000C0C9A2 /* fairytales.bundle */,
 				6E25E3A92170639A00A99597 /* AppDelegate.swift */,
 				6E25E3AB2170639A00A99597 /* ViewController.swift */,
 				6E25E3D22173542000A99597 /* SettingViewController.swift */,
@@ -198,7 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E25E3D12173540300A99597 /* Main.storyboard in Resources */,
-				95865C7B2185CBD000C0C9A2 /* fairytales.bundle in Resources */,
+				95865C802186135600C0C9A2 /* fairytales.bundle in Resources */,
 				6E25E3B42170639B00A99597 /* LaunchScreen.storyboard in Resources */,
 				6E25E3B12170639B00A99597 /* Assets.xcassets in Resources */,
 			);
