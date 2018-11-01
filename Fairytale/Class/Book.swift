@@ -14,12 +14,13 @@ class Book {
     //책의 이름
     var book_name : String = ""
     //책에 사용될 단어들 리스트
-    var keyword_list : [String] = []
+    var keyword_title_list : [String] = []
+    var keyword_list : [Keyword] = []
     //책의 본문
     var main_content:[String] = []
     
     
-    init(filename:String){
+    init(_ filename:String){
         let bundlePath = Bundle.main.url(forResource: filename, withExtension: "txt", subdirectory: "fairytales.bundle")
         
         do {
@@ -39,7 +40,7 @@ class Book {
             if let keyword_result = regexresult?.group(2){
                 let kwd_list = keyword_patten.findall(keyword_result)
                 for i in kwd_list{
-                    keyword_list.append(i)
+                    keyword_title_list.append(i)
                     //print(i)
                 }
             }
@@ -56,5 +57,13 @@ class Book {
             print("Error access directory: \(error)")
         }
     
+    }
+    
+    func loadKeyword(){
+        for i in keyword_title_list{
+            //let kwd = Keyword(i)
+            //keyword_list.append(kwd)
+            keyword_list.append(Keyword(i))
+        }
     }
 }

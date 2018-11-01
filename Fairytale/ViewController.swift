@@ -14,7 +14,7 @@ import PySwiftyRegex
 class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSource{
     
     @IBOutlet weak var ContentTable: UITableView!
-    let contentData = Book(filename: "fox")
+    let contentData = Book("fox")
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +25,7 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
         self.ContentTable.showsVerticalScrollIndicator = false
         //테이블뷰 구분선 숨김
         //self.ContentTable.separatorStyle = UITableViewCell.SeparatorStyle.none
+        
         self.ContentTable.reloadData()
     }
     

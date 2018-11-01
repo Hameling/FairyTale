@@ -147,12 +147,14 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Persei/Persei.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PySwiftyRegex/PySwiftyRegex.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/ActiveLabel/ActiveLabel.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Persei/Persei.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PySwiftyRegex/PySwiftyRegex.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

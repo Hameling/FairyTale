@@ -3,12 +3,14 @@ PODS:
   - Persei (3.1.1)
   - PySwiftyRegex (2.0.1)
   - SCLAlertView (0.8)
+  - SideMenu (5.0.2)
 
 DEPENDENCIES:
   - ActiveLabel
   - Persei
   - PySwiftyRegex
   - SCLAlertView
+  - SideMenu
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -16,13 +18,15 @@ SPEC REPOS:
     - Persei
     - PySwiftyRegex
     - SCLAlertView
+    - SideMenu
 
 SPEC CHECKSUMS:
   ActiveLabel: b8b2396fe25308d563601437d6605bf691c3b5db
   Persei: 6d36b54e40eccd437211548d3f897269c85d3a13
   PySwiftyRegex: 18ee6bede93377ce133ca9c1e8cc0446ac988be4
   SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SideMenu: e5094f0b2e7d9609e100a90ae69025abd994f882
 
-PODFILE CHECKSUM: 60ac4a83a2b3a4cbc785c8e096d9036bfddeb6ca
+PODFILE CHECKSUM: a9d85e5a17c8f0f26885bb75b85aa3d5d367d7b0
 
 COCOAPODS: 1.5.3
