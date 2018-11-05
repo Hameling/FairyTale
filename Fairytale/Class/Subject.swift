@@ -7,6 +7,6 @@
 //
 
 class Subject {
-    let subject_list : [String] = ["웃음과 풍자","지혜와 재치"]
+    let subject_list : [String] = ["초급","중급","고급"]
     var book_list :[String]?
 }

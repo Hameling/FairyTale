@@ -26,14 +26,15 @@ class Book {
         do {
             //파일 오픈
             let contents = try String(contentsOf: (bundlePath)!, encoding: .utf8)
-            
+            //print(contents)
             //파일 전체 내용을 잘라서 저장
-            let mainpatten = re.compile("name=([가-힣\\d\\s,]+)\\skeyword=([가-힣\\d\\s,]+)\\scontents=([가-힣\",.!?\\s\\d]+)")
+            let mainpatten = re.compile("name=([가-힣\\d\\s,]+)\\skeyword=([가-힣\\d\\s,]+)\\scontents=([\n가-힣a-z\",.!?\\s]+)")
             let regexresult = mainpatten.search(contents)
             
             //제목
             if let title = regexresult?.group(1){
                 self.book_name = title
+                //print(title)
             }
             //키워드 처리
             let keyword_patten = re.compile("[가-힣\\d\\s]+")
@@ -41,22 +42,22 @@ class Book {
                 let kwd_list = keyword_patten.findall(keyword_result)
                 for i in kwd_list{
                     keyword_title_list.append(i)
-                    //print(i)
+                    //print("존재")
                 }
             }
+            
             //본문
-            let content_patten = re.compile("[가-힣\",!?\\s\\d]+.")
+            let content_patten = re.compile("([가-힣n\",.!?\\s\\d]+)t")
             if let content_result = regexresult?.group(3){
                 let content_list = content_patten.findall(content_result)
                 for i in content_list{
-                    main_content.append(i)
-                    //print(i)
+                    //print(i.trimmingCharacters(in: ["t"]))
+                    main_content.append(i.trimmingCharacters(in: ["t"]))
                 }
             }
         }catch let error as NSError{
             print("Error access directory: \(error)")
         }
-    
     }
     
     func loadKeyword(){

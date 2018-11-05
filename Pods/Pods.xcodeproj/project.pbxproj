@@ -8,163 +8,214 @@
 
 /* Begin PBXBuildFile section */
 		049CF79F0CAC4B4BC8F457D04E469578 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		05838E526442110DCF8F9D7A184EACC5 /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E75AAECC4F132BC4CBAD6C6A10107A0 /* UITableViewVibrantCell.swift */; };
-		0AA5086FC677F98162865426D041994D /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2D55655E0479D0CEF6ECCFDB3695CF /* MenuView.swift */; };
-		0CEB3617E59295915B0FFC590FF8C03F /* SCLAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD03A01A11BAC30AA09900C88E9D568 /* SCLAlertView-dummy.m */; };
+		0A53F11B931698490252F3A27172FD7B /* Presentr-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F3795230596F2BEF1FC1D20A8481E9A /* Presentr-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AA5086FC677F98162865426D041994D /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9966737A1E634F4C04C13F12DEB37011 /* MenuView.swift */; };
+		100A8B4A5D9678C634CA73FE90108F92 /* ModalSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AF5996F42C2234B4EE8D5CE8EB2D59 /* ModalSize.swift */; };
+		162D21A92F281CA772044BADEF5F12FD /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0350982E2D8FB9879E7D631665403F /* BackgroundView.swift */; };
 		18AE573F1273DD8CA131FFFFAB5BF6BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		192A5A60239AE234A67F9FC4634DF5BE /* PySwiftyRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF76422D62BCA62A153B58AAFD77FBB /* PySwiftyRegex.swift */; };
-		272429313AA44191B40C82898057D8A9 /* UIScrollView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FDEDEAA09AB9CC9BD39F04A65A1C71 /* UIScrollView+Extension.swift */; };
-		296B07D098B327DF4B7727A55093DDF0 /* Persei-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B455CDC57B6A1612374C528B54F28C /* Persei-dummy.m */; };
-		2DC337ED8DDE504E8BE546D56D25C1B8 /* ActiveType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4936533B2FF2A20FF1F4FD73F418E54B /* ActiveType.swift */; };
-		31CECF7F7CF9B0B7E2B98D34A8C84498 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		3832719005FFF941D43D6217C283B74D /* HeaderShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C531A3625252ECA72A9813DA6386DFB3 /* HeaderShadowView.swift */; };
-		419227FBA2663F4007533F43A55CA6D2 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F1827D37F8A43A966E9EBC4CD99B7F /* MenuCell.swift */; };
-		44A8FE0CE49C2545C0E22D58C1A41F30 /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06299F808EBAA3EA837F6330E823635E /* SCLExtensions.swift */; };
-		4686DB5DBB538B91A065969C4837FC23 /* RegexParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0EF198A488546FF75607C31A44B649 /* RegexParser.swift */; };
-		4AAE1F74D0E42D742309B7B618B75CCB /* PySwiftyRegex-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1832A51195353ED24532263EEAC5EE6B /* PySwiftyRegex-dummy.m */; };
-		4B6EDD191FC60FE07099E49AF161EB91 /* ActiveLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 169DC65F3DE27AC656747E16A0F3E0E9 /* ActiveLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5987EE32DCC0946AC06B401C88C5024B /* Pods-Fairytale-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C29279438EA587E51424DEC194B0B8 /* Pods-Fairytale-dummy.m */; };
-		5F94129AAFB303A06EC2D85EE9D905D9 /* Persei-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDFD4E4CBCF73004FE4F5C4065A2AE5D /* Persei-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67407E229C137A706AEE19B3C394DDE8 /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F835F8E4C2EBB2F2BA08356F6FFD1A14 /* SideMenu-dummy.m */; };
-		6DCF9E39AF2BC229FD900242359210E4 /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BDDC3F6768A487647968E5B15CE6301 /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76BE7E023F97AF8B54BA61C875EB0EEA /* ActiveBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CCE07F5836690F324AD173C8135DD4 /* ActiveBuilder.swift */; };
-		7B53B742A8290F2D83FF21D23C08429B /* UIEdgeInsets+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FF2EAC9749B5444D0EE886BB0D1DA7 /* UIEdgeInsets+Equatable.swift */; };
-		8B4080EE8E0F4BC8E5E90B8A1AFC20D1 /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2558128D6DE4B1FF7FA45352BD22BC5 /* SideMenuManager.swift */; };
-		8F9A27C65AC49059E75B56E9E1D6E4C1 /* PySwiftyRegex-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04873F0A7B1558AAF8D8D030727E5035 /* PySwiftyRegex-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90116717BDE082794415894C6F33B156 /* SCLAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C21C479909C5009F451BC3FFC2D86F2 /* SCLAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		948FCFAE602EB3894A4B29F5850022D9 /* StringTrimExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F76898A5C151C156B3722DA276500 /* StringTrimExtension.swift */; };
-		B19C5E953251D33874C72CEAA79FF425 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEB7CD4011B6E5BFFF0E01BBAB0A888 /* SCLAlertView.swift */; };
-		C4EC3A954EEC7748C5CD709FC4DC2C76 /* MenuViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E74E1429B329323BFCE20E9AC8C207A /* MenuViewDelegate.swift */; };
-		CC1EDF8CC4AC01AEC27EC289FAF0FD21 /* Pods-Fairytale-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 824EC0C34E62A990A3B378C0B74295F9 /* Pods-Fairytale-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD544FEB6143C2D0BD634238307A15C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		D52EB4BC59DF26E82172722D9B0FC2C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		D74CC593702969A2913A437BF310FF7F /* ActiveLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C3D98A21C9DC48572761EC33D4904D /* ActiveLabel.swift */; };
-		DC7323FD66C998101BC477C7189BEB21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		E358F2A12999163F605A1CF90122CE4B /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180F3A2387D72BFD849B487F75B8FE53 /* MenuItem.swift */; };
-		EA91F61C00E9EA8FD5AAB4AFC7391673 /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3CBEDCB8674313D72460B7F4E0F8FE /* SideMenuTransition.swift */; };
-		F28EC6CE9C024F3871049CB61BA57316 /* StickyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2578354E16A1CC18A65BC8F5B56B79D /* StickyHeaderView.swift */; };
-		F5C368CE11EF85B6ECFD00690BC551A4 /* ActiveLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB889B0591D3B14E173CA320CD26C98 /* ActiveLabel-dummy.m */; };
-		FB6CAA2953D320CF3DFB650DBC168EEC /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E898E9D33095F259521CB5E530AB8D62 /* UISideMenuNavigationController.swift */; };
+		1CC85B003A2AAE59E23920B3CF1DF917 /* SCLAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA0FEDA331AAE4CD4569EFA0209D6A3 /* SCLAlertView-dummy.m */; };
+		1DD94FC422081AB07BFB4474BCC2B0C7 /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A905FB8532654A5C524CCC729BD433E9 /* UISideMenuNavigationController.swift */; };
+		1F4D19877B5F3FA5E1398FFE910104C3 /* SCLAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21C8773D22C736E781D30DDCAA496EA7 /* SCLAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24CCBD64AC793BD8822D3E167D5745FC /* CoverVerticalFromTopAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4CEC71B3D2B3FCFF5DE94E22E27901 /* CoverVerticalFromTopAnimation.swift */; };
+		272429313AA44191B40C82898057D8A9 /* UIScrollView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F186F2C998F8FABB13570A7F73901044 /* UIScrollView+Extension.swift */; };
+		2950F8FB67F479B924331D4F9BEEBE99 /* Presentr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945744FF61EC8E63CC84F13B752BB38C /* Presentr.swift */; };
+		296B07D098B327DF4B7727A55093DDF0 /* Persei-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B491B20DD2FB3F1A4C0E91F684BA82 /* Persei-dummy.m */; };
+		2DC337ED8DDE504E8BE546D56D25C1B8 /* ActiveType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BEF88340E4FD28B1068BD2FCF8B89C /* ActiveType.swift */; };
+		36371BF1FCC206AB8D33311B08ADFAD6 /* ModalCenterPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8353AE1E7B807236845245A605C81E /* ModalCenterPosition.swift */; };
+		3832719005FFF941D43D6217C283B74D /* HeaderShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8FB30450EA71B43ABAEAB8F8FDCDA8 /* HeaderShadowView.swift */; };
+		419227FBA2663F4007533F43A55CA6D2 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7652093361589B2F49B68E39F8EF762 /* MenuCell.swift */; };
+		4686DB5DBB538B91A065969C4837FC23 /* RegexParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27A93024E1DAF9DFE81717193E0975A /* RegexParser.swift */; };
+		46EB5AFBE60F21166DF91C19F953A2DE /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3568848596F23C4903320C94A6D701F3 /* UITableViewVibrantCell.swift */; };
+		4B6EDD191FC60FE07099E49AF161EB91 /* ActiveLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEE1E47CEA7A2A1DA934CCDBE45E2F1 /* ActiveLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C27B16DD3292318BD02818475515F14 /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CF7E0AFF4F872869964B2E178B6AC2 /* SideMenu-dummy.m */; };
+		4F9FEAB89F9AE22B614C631992F66E0A /* KeyboardTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7573A4A131CDFDD2B67B2FF15E5D4ADB /* KeyboardTranslation.swift */; };
+		534D9C099C05AEC0A1B2AC29BB79A44E /* PresentrShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6083ED793D89F038A60E64BD69C7A7AA /* PresentrShadow.swift */; };
+		5E27D3399A8880DA408A2E899887889E /* PySwiftyRegex-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BFDCD798B4C1F7EDBB34055B7D23D4 /* PySwiftyRegex-dummy.m */; };
+		5F94129AAFB303A06EC2D85EE9D905D9 /* Persei-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF78E69C39D6E98BCE85C3DE687DF88B /* Persei-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64FC34059300285816AC74C77317ABEF /* PresentrAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3464C048316679A05CA1D24383B8C204 /* PresentrAnimation.swift */; };
+		7012ACC333797E18F895005ADD42BE31 /* PySwiftyRegex-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6645D999794BB06A1FAD17EF3AA2F5F /* PySwiftyRegex-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		753F69BA6C2FBFD515FE8E5531943509 /* Presentr-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B473871C1754BB39B46A004E50B6FD /* Presentr-dummy.m */; };
+		76BE7E023F97AF8B54BA61C875EB0EEA /* ActiveBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E71D11FBBD444B53A5CFC822E615FBD /* ActiveBuilder.swift */; };
+		7B53B742A8290F2D83FF21D23C08429B /* UIEdgeInsets+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3310538728498C1D56B2A44AF5EF186 /* UIEdgeInsets+Equatable.swift */; };
+		7B6C1841EAC4BE33452D548B10A14CB3 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C440E0316004DDE07C2205F7072EFF8 /* AlertViewController.swift */; };
+		84A0C953E1A6AF82776FE4E5C622E9AB /* Presentr+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4785C63FB3D56B1F72252D95F2152AF5 /* Presentr+Equatable.swift */; };
+		8B5DE8021D2750A67696E4CC3B2DC059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		8CBEC7E977CDEBB67DC57B9313554068 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		948D944F8AA0CCF22FD4EC9F7006CAE6 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56E2FE8B882213E889B16A239FC39B50 /* Montserrat-Regular.ttf */; };
+		948FCFAE602EB3894A4B29F5850022D9 /* StringTrimExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12855DE602EE21E1FC9527ADE9684576 /* StringTrimExtension.swift */; };
+		95AEAD3BD06A11E673C716180BCA758F /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2B690716D7F8E1F4C6FFA922D3B64C /* SCLExtensions.swift */; };
+		9D5955F702CDFA9CA533D6BB610803C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9EC683BFA13CF1B8A6D226C812A95F79 /* PresentationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A94D1993C11AC7772C7A851363F04D /* PresentationType.swift */; };
+		AA0A5DEBD1888154E9658137F1AB6138 /* CoverFromCornerAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5118A739691F809E3F539543B35D12 /* CoverFromCornerAnimation.swift */; };
+		AB14DF59B32F0F6E12A45B8EB9A4AD7A /* PySwiftyRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746CBF756B03D1FF472DD088997F5DC2 /* PySwiftyRegex.swift */; };
+		AE97316C19AAAE76B1A8B994BD6ACAE1 /* CrossDissolveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA688442EDC4DD0A2731522D2C3C523 /* CrossDissolveAnimation.swift */; };
+		B4CB8AE97986101ABEEF146F4C0F5D0D /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534FE120F712170964FA8D422B240299 /* SideMenuManager.swift */; };
+		B6FC5FAEB4F72B0F63F0730434D041F8 /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31B66DBD263257F6CE420A04AD312382 /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9E47A9552F4263A58F1F7968891C338 /* TransitionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B998690045CAB54F343710ABBAB3DBBF /* TransitionType.swift */; };
+		BCD8852CAA217B3676A5F285D9787A85 /* CoverHorizontalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D569F4325E4B4A8937F3C27F5C97F63 /* CoverHorizontalAnimation.swift */; };
+		BDA6D767C7682BD6E2951913E837BDA5 /* PresentrController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5C8C7D6387213FFF262A88BF383760 /* PresentrController.swift */; };
+		BE8D769DA9B5673306B0E919D32371F0 /* Pods-Fairytale-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 824EC0C34E62A990A3B378C0B74295F9 /* Pods-Fairytale-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4EC3A954EEC7748C5CD709FC4DC2C76 /* MenuViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BEA19BE4D1DB65F8CDFF8B7CD29F61 /* MenuViewDelegate.swift */; };
+		D4DDB8D80F9C2FF727A6F272F40CEBB9 /* CoverVerticalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03784E1B07DF98A1760195CF85594C7 /* CoverVerticalAnimation.swift */; };
+		D74CC593702969A2913A437BF310FF7F /* ActiveLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC06DB7D3AA23CDCDBB5A5FACB22B56 /* ActiveLabel.swift */; };
+		D7DFC39250D71773126E2FC10F85EC1B /* FlipHorizontalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FFF7C0183F310CCFD8490526944217 /* FlipHorizontalAnimation.swift */; };
+		D942C6D8BBBB131112E2BC7B01EA4BAA /* Pods-Fairytale-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C29279438EA587E51424DEC194B0B8 /* Pods-Fairytale-dummy.m */; };
+		DBA7DEF40541B9E0F561E4891B36A052 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CA4B473DD1BBDF51F2B01DF6AEE2516 /* AlertViewController.xib */; };
+		E358F2A12999163F605A1CF90122CE4B /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C6B1D85D5E74E4E53E5983B82A76E5 /* MenuItem.swift */; };
+		EAB21DD04CA0B45423E3C0B6ACD33A11 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18AF0AE647FE84A9FDE09E15B68AF4A9 /* SourceSansPro-Regular.ttf */; };
+		F28EC6CE9C024F3871049CB61BA57316 /* StickyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFF24F8A8D23C526B1B40F83735B74A /* StickyHeaderView.swift */; };
+		F3FB98BA93E7DD2D904A51A8BFF41447 /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13989A9AF43EADD5BDFDC26F44F94061 /* SideMenuTransition.swift */; };
+		F5C368CE11EF85B6ECFD00690BC551A4 /* ActiveLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5B9B3B2FF6CABED9DDFBA8A79BB620 /* ActiveLabel-dummy.m */; };
+		F64075E848AC875789313D18F5532E7A /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF0AB5908943302887AC484DCECE9E /* SCLAlertView.swift */; };
+		F8CEEC7AFE97CFB081A8B59C5EE22120 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		FF14799481A094786B50BD0BD64D2D8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0949B5D69F95753921120340E84BFEC8 /* PBXContainerItemProxy */ = {
+		01921149131D8A5EF89EE8074F3A5BE2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BB814DEB9D28BEFFD7C241985D5B9BC1;
+			remoteGlobalIDString = 35AACA1864647C5E835285F346D25277;
 			remoteInfo = SCLAlertView;
 		};
-		2C091F358864B7C693324AFA52A245C0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F7111F7A6889AB9EBF2C690064BA5DA6;
-			remoteInfo = SideMenu;
-		};
-		3708D75E03EAECAC4208AFC778823B05 /* PBXContainerItemProxy */ = {
+		1F6C8CDF8B44654B9ECD019D3EA0C47B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A1EBDD3BC77EFE921F5EFB115E0E3B3D;
 			remoteInfo = ActiveLabel;
 		};
-		89B4E1C96AFEE4C34EDA254D1080519F /* PBXContainerItemProxy */ = {
+		37E54A0173DBF26855281ED6F46B4FFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F49934AEF362D4A8378523A830579728;
+			remoteInfo = SideMenu;
+		};
+		AF38789E9208D48D7879675F597C1300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C2B18806D0F4C5CC27851A650656AC3;
+			remoteInfo = Presentr;
+		};
+		BB9D720C6C10CD76663EA98330E93CE6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 37E9DC11DD5930F61F39665A9E2A0B08;
 			remoteInfo = Persei;
 		};
-		8A281AD92DE67BE6AFC94869D6F70278 /* PBXContainerItemProxy */ = {
+		CEBBDC5604E654E2C61609F88EEFEA11 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3CF7017E724569D4F473CD2FA857709A;
+			remoteGlobalIDString = 41DB12E26FC2F6ADF9290AA996197E24;
 			remoteInfo = PySwiftyRegex;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04873F0A7B1558AAF8D8D030727E5035 /* PySwiftyRegex-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PySwiftyRegex-umbrella.h"; sourceTree = "<group>"; };
-		06299F808EBAA3EA837F6330E823635E /* SCLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLExtensions.swift; path = SCLAlertView/SCLExtensions.swift; sourceTree = "<group>"; };
-		071AFD7833DF2863E3C6A669C5FEBF06 /* ActiveLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActiveLabel-prefix.pch"; sourceTree = "<group>"; };
-		09E8D98D947995D6657A44C7C2E46DE2 /* SCLAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		10D11FDEB1A4717DFBC3222FB2249EDB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14FDEDEAA09AB9CC9BD39F04A65A1C71 /* UIScrollView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+Extension.swift"; path = "Persei/Source/Extension/UIScrollView+Extension.swift"; sourceTree = "<group>"; };
-		169DC65F3DE27AC656747E16A0F3E0E9 /* ActiveLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActiveLabel-umbrella.h"; sourceTree = "<group>"; };
-		180F3A2387D72BFD849B487F75B8FE53 /* MenuItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuItem.swift; path = Persei/Source/Menu/MenuItem.swift; sourceTree = "<group>"; };
-		1832A51195353ED24532263EEAC5EE6B /* PySwiftyRegex-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PySwiftyRegex-dummy.m"; sourceTree = "<group>"; };
-		2D949172BF51AC86520F25F92E6D0327 /* PySwiftyRegex.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PySwiftyRegex.xcconfig; sourceTree = "<group>"; };
-		2EB889B0591D3B14E173CA320CD26C98 /* ActiveLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ActiveLabel-dummy.m"; sourceTree = "<group>"; };
+		00A94D1993C11AC7772C7A851363F04D /* PresentationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationType.swift; path = Presentr/PresentationType.swift; sourceTree = "<group>"; };
+		0403C96790942780C6DF08BEE77571A8 /* Presentr.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Presentr.xcconfig; sourceTree = "<group>"; };
+		05FA96A68707FE5929DF3DEBD8CF0B6F /* Pods_Fairytale.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fairytale.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF2028E00E84BB0C1016A86EF548350 /* Presentr.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Presentr.modulemap; sourceTree = "<group>"; };
+		0C8BF314C146BA22C9702860D0048ED0 /* SCLAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCLAlertView.xcconfig; sourceTree = "<group>"; };
+		11032800D470053B9421EEB9CCD79D91 /* ActiveLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActiveLabel-prefix.pch"; sourceTree = "<group>"; };
+		12855DE602EE21E1FC9527ADE9684576 /* StringTrimExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringTrimExtension.swift; path = ActiveLabel/StringTrimExtension.swift; sourceTree = "<group>"; };
+		13989A9AF43EADD5BDFDC26F44F94061 /* SideMenuTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransition.swift; path = Pod/Classes/SideMenuTransition.swift; sourceTree = "<group>"; };
+		18AF0AE647FE84A9FDE09E15B68AF4A9 /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "SourceSansPro-Regular.ttf"; path = "Presentr/SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
+		1CFEA73C1561A8DFE7D1791B1C92918C /* PySwiftyRegex.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PySwiftyRegex.modulemap; sourceTree = "<group>"; };
+		21C8773D22C736E781D30DDCAA496EA7 /* SCLAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-umbrella.h"; sourceTree = "<group>"; };
+		24BEF88340E4FD28B1068BD2FCF8B89C /* ActiveType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActiveType.swift; path = ActiveLabel/ActiveType.swift; sourceTree = "<group>"; };
+		27DD3FAEFDECD018DA32354B79646B3B /* ActiveLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ActiveLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8052A4458FC7864B0D47B0834D5868 /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA4B473DD1BBDF51F2B01DF6AEE2516 /* AlertViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AlertViewController.xib; path = Presentr/AlertViewController.xib; sourceTree = "<group>"; };
 		30B89D2BE8BCABE4650F45050916B3D0 /* Pods-Fairytale.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fairytale.release.xcconfig"; sourceTree = "<group>"; };
-		32E46B6623956C665B80715FCC51624B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31B66DBD263257F6CE420A04AD312382 /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
 		340DE92E3C7EAF90CDC9A5B1256E7E12 /* Pods-Fairytale-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fairytale-frameworks.sh"; sourceTree = "<group>"; };
+		3464C048316679A05CA1D24383B8C204 /* PresentrAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentrAnimation.swift; path = Presentr/PresentrAnimation.swift; sourceTree = "<group>"; };
+		3568848596F23C4903320C94A6D701F3 /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
 		37C29279438EA587E51424DEC194B0B8 /* Pods-Fairytale-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fairytale-dummy.m"; sourceTree = "<group>"; };
-		44FF2EAC9749B5444D0EE886BB0D1DA7 /* UIEdgeInsets+Equatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIEdgeInsets+Equatable.swift"; path = "Persei/Source/Extension/UIEdgeInsets+Equatable.swift"; sourceTree = "<group>"; };
-		4936533B2FF2A20FF1F4FD73F418E54B /* ActiveType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActiveType.swift; path = ActiveLabel/ActiveType.swift; sourceTree = "<group>"; };
-		4AD03A01A11BAC30AA09900C88E9D568 /* SCLAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCLAlertView-dummy.m"; sourceTree = "<group>"; };
-		4F616570C1B68E40983E237B2074A83C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A5C8C7D6387213FFF262A88BF383760 /* PresentrController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentrController.swift; path = Presentr/PresentrController.swift; sourceTree = "<group>"; };
+		3F4CEC71B3D2B3FCFF5DE94E22E27901 /* CoverVerticalFromTopAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoverVerticalFromTopAnimation.swift; path = Presentr/CoverVerticalFromTopAnimation.swift; sourceTree = "<group>"; };
+		42706F9D285BD1BDFAB868A6AE697572 /* Persei.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Persei.modulemap; sourceTree = "<group>"; };
+		439EEE45E034B5F9A925E163BE34A40D /* PySwiftyRegex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PySwiftyRegex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4785C63FB3D56B1F72252D95F2152AF5 /* Presentr+Equatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Presentr+Equatable.swift"; path = "Presentr/Presentr+Equatable.swift"; sourceTree = "<group>"; };
+		4A8FB30450EA71B43ABAEAB8F8FDCDA8 /* HeaderShadowView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderShadowView.swift; path = Persei/Source/Core/HeaderShadowView.swift; sourceTree = "<group>"; };
+		4C440E0316004DDE07C2205F7072EFF8 /* AlertViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertViewController.swift; path = Presentr/AlertViewController.swift; sourceTree = "<group>"; };
+		4D569F4325E4B4A8937F3C27F5C97F63 /* CoverHorizontalAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoverHorizontalAnimation.swift; path = Presentr/CoverHorizontalAnimation.swift; sourceTree = "<group>"; };
+		4E04CAFCCB31C3BCED476554400B0DE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50CAAD72F6C92794A9C3E649F843CB3C /* Pods-Fairytale-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Fairytale-acknowledgements.markdown"; sourceTree = "<group>"; };
+		533C6E3E040466FE42ED543664F33552 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		534FE120F712170964FA8D422B240299 /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
+		56659794C03A79D2F26BA0B7CA2699FF /* Persei-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Persei-prefix.pch"; sourceTree = "<group>"; };
+		56E2FE8B882213E889B16A239FC39B50 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "Presentr/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A7AF6287DFEFAB574B03A14E60D67A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DA0FEDA331AAE4CD4569EFA0209D6A3 /* SCLAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCLAlertView-dummy.m"; sourceTree = "<group>"; };
 		5E8B268424EDE5E7FE97B82B0896E3FD /* Pods-Fairytale.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Fairytale.modulemap"; sourceTree = "<group>"; };
-		620CB46AB70B14D119DF7EBC7A8BE847 /* SCLAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-prefix.pch"; sourceTree = "<group>"; };
-		6602132A4B8C883304C96775B901A16B /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E75AAECC4F132BC4CBAD6C6A10107A0 /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
-		7AEB7CD4011B6E5BFFF0E01BBAB0A888 /* SCLAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLAlertView.swift; path = SCLAlertView/SCLAlertView.swift; sourceTree = "<group>"; };
-		7B0EF198A488546FF75607C31A44B649 /* RegexParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegexParser.swift; path = ActiveLabel/RegexParser.swift; sourceTree = "<group>"; };
-		7C21C479909C5009F451BC3FFC2D86F2 /* SCLAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-umbrella.h"; sourceTree = "<group>"; };
+		6083ED793D89F038A60E64BD69C7A7AA /* PresentrShadow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentrShadow.swift; path = Presentr/PresentrShadow.swift; sourceTree = "<group>"; };
+		6834D4309D5F11AF1E1CD091BD44BCE9 /* Persei.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Persei.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2B690716D7F8E1F4C6FFA922D3B64C /* SCLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLExtensions.swift; path = SCLAlertView/SCLExtensions.swift; sourceTree = "<group>"; };
+		6C5118A739691F809E3F539543B35D12 /* CoverFromCornerAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoverFromCornerAnimation.swift; path = Presentr/CoverFromCornerAnimation.swift; sourceTree = "<group>"; };
+		6D2377FCD413CB1983251065E8A1C3DE /* Persei.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Persei.xcconfig; sourceTree = "<group>"; };
+		6E6FF882162903F78880C7E72A07817E /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SideMenu.modulemap; sourceTree = "<group>"; };
+		6E71D11FBBD444B53A5CFC822E615FBD /* ActiveBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActiveBuilder.swift; path = ActiveLabel/ActiveBuilder.swift; sourceTree = "<group>"; };
+		6F3795230596F2BEF1FC1D20A8481E9A /* Presentr-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Presentr-umbrella.h"; sourceTree = "<group>"; };
+		6F55348B0215E3DCFFDA51E30FC03C79 /* SCLAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		746CBF756B03D1FF472DD088997F5DC2 /* PySwiftyRegex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PySwiftyRegex.swift; path = PySwiftyRegex/PySwiftyRegex.swift; sourceTree = "<group>"; };
+		74AF5996F42C2234B4EE8D5CE8EB2D59 /* ModalSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalSize.swift; path = Presentr/ModalSize.swift; sourceTree = "<group>"; };
+		7573A4A131CDFDD2B67B2FF15E5D4ADB /* KeyboardTranslation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardTranslation.swift; path = Presentr/KeyboardTranslation.swift; sourceTree = "<group>"; };
+		75BEA19BE4D1DB65F8CDFF8B7CD29F61 /* MenuViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuViewDelegate.swift; path = Persei/Source/Menu/MenuViewDelegate.swift; sourceTree = "<group>"; };
+		75CF0AB5908943302887AC484DCECE9E /* SCLAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLAlertView.swift; path = SCLAlertView/SCLAlertView.swift; sourceTree = "<group>"; };
+		76CF7E0AFF4F872869964B2E178B6AC2 /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
+		7A0350982E2D8FB9879E7D631665403F /* BackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackgroundView.swift; path = Presentr/BackgroundView.swift; sourceTree = "<group>"; };
+		80B473871C1754BB39B46A004E50B6FD /* Presentr-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Presentr-dummy.m"; sourceTree = "<group>"; };
 		824EC0C34E62A990A3B378C0B74295F9 /* Pods-Fairytale-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fairytale-umbrella.h"; sourceTree = "<group>"; };
-		858C00BCDF057C0776B789FF194E7E19 /* Persei-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Persei-prefix.pch"; sourceTree = "<group>"; };
-		85F16FCB60E4492F80B9EAC587CFD32E /* Pods_Fairytale.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fairytale.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		828262398B5431474E813C8F93351B63 /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
+		85BFDCD798B4C1F7EDBB34055B7D23D4 /* PySwiftyRegex-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PySwiftyRegex-dummy.m"; sourceTree = "<group>"; };
 		85F82398F17B540B4FFA9FCE635AF4D2 /* Pods-Fairytale-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fairytale-resources.sh"; sourceTree = "<group>"; };
-		8B410EB74536E699C23E69808DEE910E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BDDC3F6768A487647968E5B15CE6301 /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
-		8C3CBEDCB8674313D72460B7F4E0F8FE /* SideMenuTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransition.swift; path = Pod/Classes/SideMenuTransition.swift; sourceTree = "<group>"; };
 		8DFD5BCCA7A256A7CCC0BFCAD5F5C8E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E74E1429B329323BFCE20E9AC8C207A /* MenuViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuViewDelegate.swift; path = Persei/Source/Menu/MenuViewDelegate.swift; sourceTree = "<group>"; };
-		8F8551862DEE4FB75AC33F342DF22979 /* PySwiftyRegex-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PySwiftyRegex-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94DA1ED28D17D87120F8B1462BA0ADC0 /* Persei.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Persei.modulemap; sourceTree = "<group>"; };
-		996277757D853D805B2F6F7C353ACB5A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC2FC6C4199A1FC0FE58F0C5BFA69D99 /* SCLAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SCLAlertView.modulemap; sourceTree = "<group>"; };
-		BE1FB03E6649AC91DD88E43D5CBD98F1 /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
-		C531A3625252ECA72A9813DA6386DFB3 /* HeaderShadowView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderShadowView.swift; path = Persei/Source/Core/HeaderShadowView.swift; sourceTree = "<group>"; };
-		C8D5F7BAB6E3AB2E52294C452BD8FEB6 /* ActiveLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ActiveLabel.modulemap; sourceTree = "<group>"; };
-		CC2D55655E0479D0CEF6ECCFDB3695CF /* MenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuView.swift; path = Persei/Source/Menu/MenuView.swift; sourceTree = "<group>"; };
+		945744FF61EC8E63CC84F13B752BB38C /* Presentr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Presentr.swift; path = Presentr/Presentr.swift; sourceTree = "<group>"; };
+		9687FEEADCBB73A7010CA44123A8F2B4 /* SideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.xcconfig; sourceTree = "<group>"; };
+		96C6B1D85D5E74E4E53E5983B82A76E5 /* MenuItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuItem.swift; path = Persei/Source/Menu/MenuItem.swift; sourceTree = "<group>"; };
+		9966737A1E634F4C04C13F12DEB37011 /* MenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuView.swift; path = Persei/Source/Menu/MenuView.swift; sourceTree = "<group>"; };
+		9BC06DB7D3AA23CDCDBB5A5FACB22B56 /* ActiveLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActiveLabel.swift; path = ActiveLabel/ActiveLabel.swift; sourceTree = "<group>"; };
+		9C1B83E637DAB18A3E0C08B09587D03F /* SCLAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SCLAlertView.modulemap; sourceTree = "<group>"; };
+		A1B66EB6635442D092642934FC055B91 /* SCLAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-prefix.pch"; sourceTree = "<group>"; };
+		A3310538728498C1D56B2A44AF5EF186 /* UIEdgeInsets+Equatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIEdgeInsets+Equatable.swift"; path = "Persei/Source/Extension/UIEdgeInsets+Equatable.swift"; sourceTree = "<group>"; };
+		A905FB8532654A5C524CCC729BD433E9 /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISideMenuNavigationController.swift; path = Pod/Classes/UISideMenuNavigationController.swift; sourceTree = "<group>"; };
+		AEA688442EDC4DD0A2731522D2C3C523 /* CrossDissolveAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrossDissolveAnimation.swift; path = Presentr/CrossDissolveAnimation.swift; sourceTree = "<group>"; };
+		AF8353AE1E7B807236845245A605C81E /* ModalCenterPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalCenterPosition.swift; path = Presentr/ModalCenterPosition.swift; sourceTree = "<group>"; };
+		B0E687A4EEFEF8677E5F2F0E248E6B4E /* PySwiftyRegex.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PySwiftyRegex.xcconfig; sourceTree = "<group>"; };
+		B5B491B20DD2FB3F1A4C0E91F684BA82 /* Persei-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Persei-dummy.m"; sourceTree = "<group>"; };
+		B998690045CAB54F343710ABBAB3DBBF /* TransitionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionType.swift; path = Presentr/TransitionType.swift; sourceTree = "<group>"; };
+		BA3DEBFAA7B3E340E5B27BF5429DD732 /* PySwiftyRegex-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PySwiftyRegex-prefix.pch"; sourceTree = "<group>"; };
+		BBB848E8513AFE58F0DDADA4FACF2BE5 /* ActiveLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ActiveLabel.xcconfig; sourceTree = "<group>"; };
+		BCFF24F8A8D23C526B1B40F83735B74A /* StickyHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StickyHeaderView.swift; path = Persei/Source/Core/StickyHeaderView.swift; sourceTree = "<group>"; };
+		BDB79A159CE3514A208668A088C7F706 /* Presentr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Presentr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB81EFFD53A5B990E6ED97D11339A9F0 /* Presentr-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Presentr-prefix.pch"; sourceTree = "<group>"; };
 		CD4E723F3A46E164134A16465D950889 /* Pods-Fairytale.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fairytale.debug.xcconfig"; sourceTree = "<group>"; };
-		CDFD4E4CBCF73004FE4F5C4065A2AE5D /* Persei-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Persei-umbrella.h"; sourceTree = "<group>"; };
-		D01F76898A5C151C156B3722DA276500 /* StringTrimExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringTrimExtension.swift; path = ActiveLabel/StringTrimExtension.swift; sourceTree = "<group>"; };
+		CEDA5EDDF7A8A2A69EDE1B64D96F2E9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1C00203B38D0F34E313064BA48A9347 /* Pods-Fairytale-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fairytale-acknowledgements.plist"; sourceTree = "<group>"; };
-		D1CCE07F5836690F324AD173C8135DD4 /* ActiveBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActiveBuilder.swift; path = ActiveLabel/ActiveBuilder.swift; sourceTree = "<group>"; };
-		D1F1827D37F8A43A966E9EBC4CD99B7F /* MenuCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuCell.swift; path = Persei/Source/Menu/MenuCell.swift; sourceTree = "<group>"; };
-		D2578354E16A1CC18A65BC8F5B56B79D /* StickyHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StickyHeaderView.swift; path = Persei/Source/Core/StickyHeaderView.swift; sourceTree = "<group>"; };
-		D75F15DF0A5DD07A5F02EAC588545B60 /* PySwiftyRegex.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PySwiftyRegex.modulemap; sourceTree = "<group>"; };
-		D83BDCB0FB2D0ACC29BFDE041D865EAF /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SideMenu.modulemap; sourceTree = "<group>"; };
-		DA68B88B623F633C599AABA1F3D35CA6 /* ActiveLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ActiveLabel.xcconfig; sourceTree = "<group>"; };
-		DBFAE0BFAECF37C7BA44FFCF2802F95B /* Persei.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Persei.xcconfig; sourceTree = "<group>"; };
-		E1C3D98A21C9DC48572761EC33D4904D /* ActiveLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActiveLabel.swift; path = ActiveLabel/ActiveLabel.swift; sourceTree = "<group>"; };
-		E4DAC09B3B830A5C103C85BB1B77ED5E /* PySwiftyRegex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PySwiftyRegex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E898E9D33095F259521CB5E530AB8D62 /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISideMenuNavigationController.swift; path = Pod/Classes/UISideMenuNavigationController.swift; sourceTree = "<group>"; };
-		ED5146501113E74EB8D2E139B7516A2A /* SideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.xcconfig; sourceTree = "<group>"; };
-		F2558128D6DE4B1FF7FA45352BD22BC5 /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
-		F7BA5D39D663028BE4809A62A915E4FE /* Persei.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Persei.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F835F8E4C2EBB2F2BA08356F6FFD1A14 /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
-		F96415AF726A7DC4C5E00AF88C32A41C /* ActiveLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ActiveLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9B455CDC57B6A1612374C528B54F28C /* Persei-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Persei-dummy.m"; sourceTree = "<group>"; };
-		FAF76422D62BCA62A153B58AAFD77FBB /* PySwiftyRegex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PySwiftyRegex.swift; path = PySwiftyRegex/PySwiftyRegex.swift; sourceTree = "<group>"; };
-		FBA2D9CD4F2D361514CF98C559F1BCCB /* SCLAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCLAlertView.xcconfig; sourceTree = "<group>"; };
+		DD1B43E2E57F72A202B0C7A6FE5C9575 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD5B9B3B2FF6CABED9DDFBA8A79BB620 /* ActiveLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ActiveLabel-dummy.m"; sourceTree = "<group>"; };
+		DF78E69C39D6E98BCE85C3DE687DF88B /* Persei-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Persei-umbrella.h"; sourceTree = "<group>"; };
+		E03784E1B07DF98A1760195CF85594C7 /* CoverVerticalAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoverVerticalAnimation.swift; path = Presentr/CoverVerticalAnimation.swift; sourceTree = "<group>"; };
+		E6645D999794BB06A1FAD17EF3AA2F5F /* PySwiftyRegex-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PySwiftyRegex-umbrella.h"; sourceTree = "<group>"; };
+		F186F2C998F8FABB13570A7F73901044 /* UIScrollView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+Extension.swift"; path = "Persei/Source/Extension/UIScrollView+Extension.swift"; sourceTree = "<group>"; };
+		F27A93024E1DAF9DFE81717193E0975A /* RegexParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegexParser.swift; path = ActiveLabel/RegexParser.swift; sourceTree = "<group>"; };
+		F2FFF7C0183F310CCFD8490526944217 /* FlipHorizontalAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlipHorizontalAnimation.swift; path = Presentr/FlipHorizontalAnimation.swift; sourceTree = "<group>"; };
+		F734EC88E5DAC6680650C0C0A6A0B6F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7652093361589B2F49B68E39F8EF762 /* MenuCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuCell.swift; path = Persei/Source/Menu/MenuCell.swift; sourceTree = "<group>"; };
+		FEEE1E47CEA7A2A1DA934CCDBE45E2F1 /* ActiveLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActiveLabel-umbrella.h"; sourceTree = "<group>"; };
+		FEF8FD814F682C002235382EAB0D6F5C /* ActiveLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ActiveLabel.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		13B66CD1692C1EE103F8C2602749788D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				31CECF7F7CF9B0B7E2B98D34A8C84498 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3926208023A76EABF93F771B9E5EE65D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -173,19 +224,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74741672E8E9002F6F53FE3068E83670 /* Frameworks */ = {
+		4E929225B66ED4946BD416D2AFE1F32A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D52EB4BC59DF26E82172722D9B0FC2C4 /* Foundation.framework in Frameworks */,
+				8B5DE8021D2750A67696E4CC3B2DC059 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABCE5AAF1F8CFE6E11C25B57989447AF /* Frameworks */ = {
+		6F34004BB877E7683B51E69C43EFD9CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC7323FD66C998101BC477C7189BEB21 /* Foundation.framework in Frameworks */,
+				F8CEEC7AFE97CFB081A8B59C5EE22120 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3C9D92998DF4A4762E3EC9E061FB49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBEC7E977CDEBB67DC57B9313554068 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,73 +256,86 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9D1A8CC0E8749E5F7C10EA8296450BD /* Frameworks */ = {
+		B59CD7E558E42826A3245EA67910D8C4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD544FEB6143C2D0BD634238307A15C9 /* Foundation.framework in Frameworks */,
+				FF14799481A094786B50BD0BD64D2D8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9673A87E5B099357748153EE559486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5955F702CDFA9CA533D6BB610803C0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07FC507D20C718458CCB5753E078858C /* Support Files */ = {
+		04141D576D7975667F599B6683E0D2D8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				32E46B6623956C665B80715FCC51624B /* Info.plist */,
-				D75F15DF0A5DD07A5F02EAC588545B60 /* PySwiftyRegex.modulemap */,
-				2D949172BF51AC86520F25F92E6D0327 /* PySwiftyRegex.xcconfig */,
-				1832A51195353ED24532263EEAC5EE6B /* PySwiftyRegex-dummy.m */,
-				8F8551862DEE4FB75AC33F342DF22979 /* PySwiftyRegex-prefix.pch */,
-				04873F0A7B1558AAF8D8D030727E5035 /* PySwiftyRegex-umbrella.h */,
+				F734EC88E5DAC6680650C0C0A6A0B6F3 /* Info.plist */,
+				9C1B83E637DAB18A3E0C08B09587D03F /* SCLAlertView.modulemap */,
+				0C8BF314C146BA22C9702860D0048ED0 /* SCLAlertView.xcconfig */,
+				5DA0FEDA331AAE4CD4569EFA0209D6A3 /* SCLAlertView-dummy.m */,
+				A1B66EB6635442D092642934FC055B91 /* SCLAlertView-prefix.pch */,
+				21C8773D22C736E781D30DDCAA496EA7 /* SCLAlertView-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/PySwiftyRegex";
+			path = "../Target Support Files/SCLAlertView";
 			sourceTree = "<group>";
 		};
-		358D7457E39993773AD1985667F4AA86 /* Support Files */ = {
+		185D8546E5C9E764798CBC46C030D83C /* ActiveLabel */ = {
 			isa = PBXGroup;
 			children = (
-				C8D5F7BAB6E3AB2E52294C452BD8FEB6 /* ActiveLabel.modulemap */,
-				DA68B88B623F633C599AABA1F3D35CA6 /* ActiveLabel.xcconfig */,
-				2EB889B0591D3B14E173CA320CD26C98 /* ActiveLabel-dummy.m */,
-				071AFD7833DF2863E3C6A669C5FEBF06 /* ActiveLabel-prefix.pch */,
-				169DC65F3DE27AC656747E16A0F3E0E9 /* ActiveLabel-umbrella.h */,
-				10D11FDEB1A4717DFBC3222FB2249EDB /* Info.plist */,
+				6E71D11FBBD444B53A5CFC822E615FBD /* ActiveBuilder.swift */,
+				9BC06DB7D3AA23CDCDBB5A5FACB22B56 /* ActiveLabel.swift */,
+				24BEF88340E4FD28B1068BD2FCF8B89C /* ActiveType.swift */,
+				F27A93024E1DAF9DFE81717193E0975A /* RegexParser.swift */,
+				12855DE602EE21E1FC9527ADE9684576 /* StringTrimExtension.swift */,
+				32C7BC98EE4C3414007A124C3805A685 /* Support Files */,
+			);
+			path = ActiveLabel;
+			sourceTree = "<group>";
+		};
+		32C7BC98EE4C3414007A124C3805A685 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEF8FD814F682C002235382EAB0D6F5C /* ActiveLabel.modulemap */,
+				BBB848E8513AFE58F0DDADA4FACF2BE5 /* ActiveLabel.xcconfig */,
+				DD5B9B3B2FF6CABED9DDFBA8A79BB620 /* ActiveLabel-dummy.m */,
+				11032800D470053B9421EEB9CCD79D91 /* ActiveLabel-prefix.pch */,
+				FEEE1E47CEA7A2A1DA934CCDBE45E2F1 /* ActiveLabel-umbrella.h */,
+				4E04CAFCCB31C3BCED476554400B0DE8 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ActiveLabel";
 			sourceTree = "<group>";
 		};
-		3FFF1B60E23A39963F96EACABA62BA0A /* Persei */ = {
+		3339A79E71E11BB2E66E7756B4A22863 /* SideMenu */ = {
 			isa = PBXGroup;
 			children = (
-				C531A3625252ECA72A9813DA6386DFB3 /* HeaderShadowView.swift */,
-				D1F1827D37F8A43A966E9EBC4CD99B7F /* MenuCell.swift */,
-				180F3A2387D72BFD849B487F75B8FE53 /* MenuItem.swift */,
-				CC2D55655E0479D0CEF6ECCFDB3695CF /* MenuView.swift */,
-				8E74E1429B329323BFCE20E9AC8C207A /* MenuViewDelegate.swift */,
-				D2578354E16A1CC18A65BC8F5B56B79D /* StickyHeaderView.swift */,
-				44FF2EAC9749B5444D0EE886BB0D1DA7 /* UIEdgeInsets+Equatable.swift */,
-				14FDEDEAA09AB9CC9BD39F04A65A1C71 /* UIScrollView+Extension.swift */,
-				ABC88D6863A0F7ED43F86A7F8286AEAC /* Support Files */,
+				534FE120F712170964FA8D422B240299 /* SideMenuManager.swift */,
+				13989A9AF43EADD5BDFDC26F44F94061 /* SideMenuTransition.swift */,
+				A905FB8532654A5C524CCC729BD433E9 /* UISideMenuNavigationController.swift */,
+				3568848596F23C4903320C94A6D701F3 /* UITableViewVibrantCell.swift */,
+				B91AC9DD57177E730D08AE4292160173 /* Support Files */,
 			);
-			path = Persei;
+			path = SideMenu;
 			sourceTree = "<group>";
 		};
-		5519DDF7A0AE7D5B6B2019100B79806A /* Support Files */ = {
+		37F4AAEC4514D14032509F2CC278CA60 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8B410EB74536E699C23E69808DEE910E /* Info.plist */,
-				AC2FC6C4199A1FC0FE58F0C5BFA69D99 /* SCLAlertView.modulemap */,
-				FBA2D9CD4F2D361514CF98C559F1BCCB /* SCLAlertView.xcconfig */,
-				4AD03A01A11BAC30AA09900C88E9D568 /* SCLAlertView-dummy.m */,
-				620CB46AB70B14D119DF7EBC7A8BE847 /* SCLAlertView-prefix.pch */,
-				7C21C479909C5009F451BC3FFC2D86F2 /* SCLAlertView-umbrella.h */,
+				2CA4B473DD1BBDF51F2B01DF6AEE2516 /* AlertViewController.xib */,
+				56E2FE8B882213E889B16A239FC39B50 /* Montserrat-Regular.ttf */,
+				18AF0AE647FE84A9FDE09E15B68AF4A9 /* SourceSansPro-Regular.ttf */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SCLAlertView";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -274,27 +346,70 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		63DD0D59539A9B65C2E7987106F74E5E /* Products */ = {
+		6357EF42E28333F6A9E1107218106A94 /* Presentr */ = {
 			isa = PBXGroup;
 			children = (
-				F96415AF726A7DC4C5E00AF88C32A41C /* ActiveLabel.framework */,
-				F7BA5D39D663028BE4809A62A915E4FE /* Persei.framework */,
-				85F16FCB60E4492F80B9EAC587CFD32E /* Pods_Fairytale.framework */,
-				E4DAC09B3B830A5C103C85BB1B77ED5E /* PySwiftyRegex.framework */,
-				09E8D98D947995D6657A44C7C2E46DE2 /* SCLAlertView.framework */,
-				6602132A4B8C883304C96775B901A16B /* SideMenu.framework */,
+				4C440E0316004DDE07C2205F7072EFF8 /* AlertViewController.swift */,
+				7A0350982E2D8FB9879E7D631665403F /* BackgroundView.swift */,
+				6C5118A739691F809E3F539543B35D12 /* CoverFromCornerAnimation.swift */,
+				4D569F4325E4B4A8937F3C27F5C97F63 /* CoverHorizontalAnimation.swift */,
+				E03784E1B07DF98A1760195CF85594C7 /* CoverVerticalAnimation.swift */,
+				3F4CEC71B3D2B3FCFF5DE94E22E27901 /* CoverVerticalFromTopAnimation.swift */,
+				AEA688442EDC4DD0A2731522D2C3C523 /* CrossDissolveAnimation.swift */,
+				F2FFF7C0183F310CCFD8490526944217 /* FlipHorizontalAnimation.swift */,
+				7573A4A131CDFDD2B67B2FF15E5D4ADB /* KeyboardTranslation.swift */,
+				AF8353AE1E7B807236845245A605C81E /* ModalCenterPosition.swift */,
+				74AF5996F42C2234B4EE8D5CE8EB2D59 /* ModalSize.swift */,
+				00A94D1993C11AC7772C7A851363F04D /* PresentationType.swift */,
+				945744FF61EC8E63CC84F13B752BB38C /* Presentr.swift */,
+				4785C63FB3D56B1F72252D95F2152AF5 /* Presentr+Equatable.swift */,
+				3464C048316679A05CA1D24383B8C204 /* PresentrAnimation.swift */,
+				3A5C8C7D6387213FFF262A88BF383760 /* PresentrController.swift */,
+				6083ED793D89F038A60E64BD69C7A7AA /* PresentrShadow.swift */,
+				B998690045CAB54F343710ABBAB3DBBF /* TransitionType.swift */,
+				37F4AAEC4514D14032509F2CC278CA60 /* Resources */,
+				9A695AD33D4A66F32FEB07907732F965 /* Support Files */,
 			);
-			name = Products;
+			path = Presentr;
 			sourceTree = "<group>";
 		};
-		7A3FA6E837C2E82A6881CEB68974B738 /* SCLAlertView */ = {
+		6CE766DD1DA27ABB02C85EABE83C19FF /* Persei */ = {
 			isa = PBXGroup;
 			children = (
-				7AEB7CD4011B6E5BFFF0E01BBAB0A888 /* SCLAlertView.swift */,
-				06299F808EBAA3EA837F6330E823635E /* SCLExtensions.swift */,
-				5519DDF7A0AE7D5B6B2019100B79806A /* Support Files */,
+				4A8FB30450EA71B43ABAEAB8F8FDCDA8 /* HeaderShadowView.swift */,
+				F7652093361589B2F49B68E39F8EF762 /* MenuCell.swift */,
+				96C6B1D85D5E74E4E53E5983B82A76E5 /* MenuItem.swift */,
+				9966737A1E634F4C04C13F12DEB37011 /* MenuView.swift */,
+				75BEA19BE4D1DB65F8CDFF8B7CD29F61 /* MenuViewDelegate.swift */,
+				BCFF24F8A8D23C526B1B40F83735B74A /* StickyHeaderView.swift */,
+				A3310538728498C1D56B2A44AF5EF186 /* UIEdgeInsets+Equatable.swift */,
+				F186F2C998F8FABB13570A7F73901044 /* UIScrollView+Extension.swift */,
+				CA24D47091D1CBE1A87D9A2FCD3B7079 /* Support Files */,
 			);
-			path = SCLAlertView;
+			path = Persei;
+			sourceTree = "<group>";
+		};
+		73015C0CD26FD09EC586FCE4354076DF /* PySwiftyRegex */ = {
+			isa = PBXGroup;
+			children = (
+				746CBF756B03D1FF472DD088997F5DC2 /* PySwiftyRegex.swift */,
+				7CC78A6B27348FAF19E09A396183CDCF /* Support Files */,
+			);
+			path = PySwiftyRegex;
+			sourceTree = "<group>";
+		};
+		7CC78A6B27348FAF19E09A396183CDCF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A7AF6287DFEFAB574B03A14E60D67A2 /* Info.plist */,
+				1CFEA73C1561A8DFE7D1791B1C92918C /* PySwiftyRegex.modulemap */,
+				B0E687A4EEFEF8677E5F2F0E248E6B4E /* PySwiftyRegex.xcconfig */,
+				85BFDCD798B4C1F7EDBB34055B7D23D4 /* PySwiftyRegex-dummy.m */,
+				BA3DEBFAA7B3E340E5B27BF5429DD732 /* PySwiftyRegex-prefix.pch */,
+				E6645D999794BB06A1FAD17EF3AA2F5F /* PySwiftyRegex-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PySwiftyRegex";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -302,10 +417,51 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				B89B91DB82BB6C45295BB18E8F7E67F3 /* Pods */,
-				63DD0D59539A9B65C2E7987106F74E5E /* Products */,
+				A190E58C80C6E9FFBC050F5A397B92D8 /* Pods */,
+				951F88EF21B7121298EA76F10ED83768 /* Products */,
 				D20C90DA70D83218B264E68EC232066A /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		951F88EF21B7121298EA76F10ED83768 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27DD3FAEFDECD018DA32354B79646B3B /* ActiveLabel.framework */,
+				6834D4309D5F11AF1E1CD091BD44BCE9 /* Persei.framework */,
+				05FA96A68707FE5929DF3DEBD8CF0B6F /* Pods_Fairytale.framework */,
+				BDB79A159CE3514A208668A088C7F706 /* Presentr.framework */,
+				439EEE45E034B5F9A925E163BE34A40D /* PySwiftyRegex.framework */,
+				6F55348B0215E3DCFFDA51E30FC03C79 /* SCLAlertView.framework */,
+				2A8052A4458FC7864B0D47B0834D5868 /* SideMenu.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A695AD33D4A66F32FEB07907732F965 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA5EDDF7A8A2A69EDE1B64D96F2E9D /* Info.plist */,
+				0AF2028E00E84BB0C1016A86EF548350 /* Presentr.modulemap */,
+				0403C96790942780C6DF08BEE77571A8 /* Presentr.xcconfig */,
+				80B473871C1754BB39B46A004E50B6FD /* Presentr-dummy.m */,
+				CB81EFFD53A5B990E6ED97D11339A9F0 /* Presentr-prefix.pch */,
+				6F3795230596F2BEF1FC1D20A8481E9A /* Presentr-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Presentr";
+			sourceTree = "<group>";
+		};
+		A190E58C80C6E9FFBC050F5A397B92D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				185D8546E5C9E764798CBC46C030D83C /* ActiveLabel */,
+				6CE766DD1DA27ABB02C85EABE83C19FF /* Persei */,
+				6357EF42E28333F6A9E1107218106A94 /* Presentr */,
+				73015C0CD26FD09EC586FCE4354076DF /* PySwiftyRegex */,
+				B44A47B20707B942287881AC99B0255F /* SCLAlertView */,
+				3339A79E71E11BB2E66E7756B4A22863 /* SideMenu */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		A6143A4548081FAD4615C508127EC5C2 /* Pods-Fairytale */ = {
@@ -326,53 +482,28 @@
 			path = "Target Support Files/Pods-Fairytale";
 			sourceTree = "<group>";
 		};
-		A6EC7024A1428D9789C8DB619116084D /* PySwiftyRegex */ = {
+		B44A47B20707B942287881AC99B0255F /* SCLAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				FAF76422D62BCA62A153B58AAFD77FBB /* PySwiftyRegex.swift */,
-				07FC507D20C718458CCB5753E078858C /* Support Files */,
+				75CF0AB5908943302887AC484DCECE9E /* SCLAlertView.swift */,
+				6B2B690716D7F8E1F4C6FFA922D3B64C /* SCLExtensions.swift */,
+				04141D576D7975667F599B6683E0D2D8 /* Support Files */,
 			);
-			path = PySwiftyRegex;
+			path = SCLAlertView;
 			sourceTree = "<group>";
 		};
-		ABC88D6863A0F7ED43F86A7F8286AEAC /* Support Files */ = {
+		B91AC9DD57177E730D08AE4292160173 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4F616570C1B68E40983E237B2074A83C /* Info.plist */,
-				94DA1ED28D17D87120F8B1462BA0ADC0 /* Persei.modulemap */,
-				DBFAE0BFAECF37C7BA44FFCF2802F95B /* Persei.xcconfig */,
-				F9B455CDC57B6A1612374C528B54F28C /* Persei-dummy.m */,
-				858C00BCDF057C0776B789FF194E7E19 /* Persei-prefix.pch */,
-				CDFD4E4CBCF73004FE4F5C4065A2AE5D /* Persei-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Persei";
-			sourceTree = "<group>";
-		};
-		AC20A7B3BC16EBD01CF6F39BBCF60FC3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				996277757D853D805B2F6F7C353ACB5A /* Info.plist */,
-				D83BDCB0FB2D0ACC29BFDE041D865EAF /* SideMenu.modulemap */,
-				ED5146501113E74EB8D2E139B7516A2A /* SideMenu.xcconfig */,
-				F835F8E4C2EBB2F2BA08356F6FFD1A14 /* SideMenu-dummy.m */,
-				BE1FB03E6649AC91DD88E43D5CBD98F1 /* SideMenu-prefix.pch */,
-				8BDDC3F6768A487647968E5B15CE6301 /* SideMenu-umbrella.h */,
+				DD1B43E2E57F72A202B0C7A6FE5C9575 /* Info.plist */,
+				6E6FF882162903F78880C7E72A07817E /* SideMenu.modulemap */,
+				9687FEEADCBB73A7010CA44123A8F2B4 /* SideMenu.xcconfig */,
+				76CF7E0AFF4F872869964B2E178B6AC2 /* SideMenu-dummy.m */,
+				828262398B5431474E813C8F93351B63 /* SideMenu-prefix.pch */,
+				31B66DBD263257F6CE420A04AD312382 /* SideMenu-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SideMenu";
-			sourceTree = "<group>";
-		};
-		B89B91DB82BB6C45295BB18E8F7E67F3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EBCC54C2BF1D689A01AAB28F8145F0DB /* ActiveLabel */,
-				3FFF1B60E23A39963F96EACABA62BA0A /* Persei */,
-				A6EC7024A1428D9789C8DB619116084D /* PySwiftyRegex */,
-				7A3FA6E837C2E82A6881CEB68974B738 /* SCLAlertView */,
-				D7219F74264932D9D4C2340B99C1FDE0 /* SideMenu */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -383,37 +514,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CA24D47091D1CBE1A87D9A2FCD3B7079 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				533C6E3E040466FE42ED543664F33552 /* Info.plist */,
+				42706F9D285BD1BDFAB868A6AE697572 /* Persei.modulemap */,
+				6D2377FCD413CB1983251065E8A1C3DE /* Persei.xcconfig */,
+				B5B491B20DD2FB3F1A4C0E91F684BA82 /* Persei-dummy.m */,
+				56659794C03A79D2F26BA0B7CA2699FF /* Persei-prefix.pch */,
+				DF78E69C39D6E98BCE85C3DE687DF88B /* Persei-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Persei";
+			sourceTree = "<group>";
+		};
 		D20C90DA70D83218B264E68EC232066A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				A6143A4548081FAD4615C508127EC5C2 /* Pods-Fairytale */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		D7219F74264932D9D4C2340B99C1FDE0 /* SideMenu */ = {
-			isa = PBXGroup;
-			children = (
-				F2558128D6DE4B1FF7FA45352BD22BC5 /* SideMenuManager.swift */,
-				8C3CBEDCB8674313D72460B7F4E0F8FE /* SideMenuTransition.swift */,
-				E898E9D33095F259521CB5E530AB8D62 /* UISideMenuNavigationController.swift */,
-				6E75AAECC4F132BC4CBAD6C6A10107A0 /* UITableViewVibrantCell.swift */,
-				AC20A7B3BC16EBD01CF6F39BBCF60FC3 /* Support Files */,
-			);
-			path = SideMenu;
-			sourceTree = "<group>";
-		};
-		EBCC54C2BF1D689A01AAB28F8145F0DB /* ActiveLabel */ = {
-			isa = PBXGroup;
-			children = (
-				D1CCE07F5836690F324AD173C8135DD4 /* ActiveBuilder.swift */,
-				E1C3D98A21C9DC48572761EC33D4904D /* ActiveLabel.swift */,
-				4936533B2FF2A20FF1F4FD73F418E54B /* ActiveType.swift */,
-				7B0EF198A488546FF75607C31A44B649 /* RegexParser.swift */,
-				D01F76898A5C151C156B3722DA276500 /* StringTrimExtension.swift */,
-				358D7457E39993773AD1985667F4AA86 /* Support Files */,
-			);
-			path = ActiveLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -427,27 +547,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49DD27183C3475CF30BA5604A06209B5 /* Headers */ = {
+		484F63AD83254717C444EF8820AF7FE7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DCF9E39AF2BC229FD900242359210E4 /* SideMenu-umbrella.h in Headers */,
+				B6FC5FAEB4F72B0F63F0730434D041F8 /* SideMenu-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		657BAB3CF93A07FA05FA30D1B04955A2 /* Headers */ = {
+		BF7508CD1FF0528CD91067AA96A5831E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90116717BDE082794415894C6F33B156 /* SCLAlertView-umbrella.h in Headers */,
+				1F4D19877B5F3FA5E1398FFE910104C3 /* SCLAlertView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B2D6FCD07C4CDC11D163A3885FC2EB4 /* Headers */ = {
+		CB35D6DC586773DB03A0CD9AFE07AB42 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F9A27C65AC49059E75B56E9E1D6E4C1 /* PySwiftyRegex-umbrella.h in Headers */,
+				7012ACC333797E18F895005ADD42BE31 /* PySwiftyRegex-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FDF89A5248D9D4B33413CFB6677D83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8D769DA9B5673306B0E919D32371F0 /* Pods-Fairytale-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,17 +587,75 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE8CB8886C39669DF9772FBEE2EE6907 /* Headers */ = {
+		E297E711BC0CA6BB370AD5EB89CACE31 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC1EDF8CC4AC01AEC27EC289FAF0FD21 /* Pods-Fairytale-umbrella.h in Headers */,
+				0A53F11B931698490252F3A27172FD7B /* Presentr-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		17274E02D60C06619504E6CF11946CA9 /* Pods-Fairytale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B366340BA4C863B3B687995C9390513 /* Build configuration list for PBXNativeTarget "Pods-Fairytale" */;
+			buildPhases = (
+				A616987F11C5BE43F2C4464B6AFFC4C7 /* Sources */,
+				9B3C9D92998DF4A4762E3EC9E061FB49 /* Frameworks */,
+				D0FDF89A5248D9D4B33413CFB6677D83 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EB0D6F5EA1B7F8E11BD25EBBCFB3E72 /* PBXTargetDependency */,
+				D7CFD555C5302896B529C49DA28FFC7B /* PBXTargetDependency */,
+				F6D154488DB32CEBFB2080183C112F17 /* PBXTargetDependency */,
+				88E90D64C5829D759381AE5E68012A33 /* PBXTargetDependency */,
+				4AC14E6682F245B148412F9E7FC9B482 /* PBXTargetDependency */,
+				1DB4C668D9C8EE7BAB88C3AB98F5C81A /* PBXTargetDependency */,
+			);
+			name = "Pods-Fairytale";
+			productName = "Pods-Fairytale";
+			productReference = 05FA96A68707FE5929DF3DEBD8CF0B6F /* Pods_Fairytale.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1C2B18806D0F4C5CC27851A650656AC3 /* Presentr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DED6BD1493FDD01F2A63B41E2A11807 /* Build configuration list for PBXNativeTarget "Presentr" */;
+			buildPhases = (
+				7304137D8153C333AFA83A67E85A380E /* Sources */,
+				6F34004BB877E7683B51E69C43EFD9CC /* Frameworks */,
+				E4259934AD5040B298A34CE201618A9A /* Resources */,
+				E297E711BC0CA6BB370AD5EB89CACE31 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Presentr;
+			productName = Presentr;
+			productReference = BDB79A159CE3514A208668A088C7F706 /* Presentr.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		35AACA1864647C5E835285F346D25277 /* SCLAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EE8D6ECEFED62C6039C9FDB7DB9B366 /* Build configuration list for PBXNativeTarget "SCLAlertView" */;
+			buildPhases = (
+				DD4D0B919F84A295C8A87DC40A6A6499 /* Sources */,
+				4E929225B66ED4946BD416D2AFE1F32A /* Frameworks */,
+				BF7508CD1FF0528CD91067AA96A5831E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCLAlertView;
+			productName = SCLAlertView;
+			productReference = 6F55348B0215E3DCFFDA51E30FC03C79 /* SCLAlertView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		37E9DC11DD5930F61F39665A9E2A0B08 /* Persei */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B26D88FC0C6BE7CF2FB3DEA7B7E8DEFE /* Build configuration list for PBXNativeTarget "Persei" */;
@@ -484,16 +670,16 @@
 			);
 			name = Persei;
 			productName = Persei;
-			productReference = F7BA5D39D663028BE4809A62A915E4FE /* Persei.framework */;
+			productReference = 6834D4309D5F11AF1E1CD091BD44BCE9 /* Persei.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3CF7017E724569D4F473CD2FA857709A /* PySwiftyRegex */ = {
+		41DB12E26FC2F6ADF9290AA996197E24 /* PySwiftyRegex */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F614C920CFD45D652A3B1741F4C7D697 /* Build configuration list for PBXNativeTarget "PySwiftyRegex" */;
+			buildConfigurationList = 1B9A78410024365CC013699EA45EC349 /* Build configuration list for PBXNativeTarget "PySwiftyRegex" */;
 			buildPhases = (
-				125DAF07C49CA7251633DD1E68BD618E /* Sources */,
-				74741672E8E9002F6F53FE3068E83670 /* Frameworks */,
-				6B2D6FCD07C4CDC11D163A3885FC2EB4 /* Headers */,
+				204E3EACE2243D547E03F07C0BD1AA05 /* Sources */,
+				EF9673A87E5B099357748153EE559486 /* Frameworks */,
+				CB35D6DC586773DB03A0CD9AFE07AB42 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -501,29 +687,7 @@
 			);
 			name = PySwiftyRegex;
 			productName = PySwiftyRegex;
-			productReference = E4DAC09B3B830A5C103C85BB1B77ED5E /* PySwiftyRegex.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		7E6EAA15407059137427E0A85A8E6FA4 /* Pods-Fairytale */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 29DE6D8883854A1CB9D0AC2D4CB69567 /* Build configuration list for PBXNativeTarget "Pods-Fairytale" */;
-			buildPhases = (
-				19755669036BC9292BD05CFACB47A454 /* Sources */,
-				C9D1A8CC0E8749E5F7C10EA8296450BD /* Frameworks */,
-				EE8CB8886C39669DF9772FBEE2EE6907 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				679F42195030AEF1C199E610DD222DE0 /* PBXTargetDependency */,
-				E8017125485628D6E686673632B5017E /* PBXTargetDependency */,
-				EE6A3D58F6146217BCDA883FFEFC58EF /* PBXTargetDependency */,
-				5F4A5D08614BCEA5F9FBFDCEFD7D3F7A /* PBXTargetDependency */,
-				BD4D9CA7150D9AB57FA4D9DF6CB5E27D /* PBXTargetDependency */,
-			);
-			name = "Pods-Fairytale";
-			productName = "Pods-Fairytale";
-			productReference = 85F16FCB60E4492F80B9EAC587CFD32E /* Pods_Fairytale.framework */;
+			productReference = 439EEE45E034B5F9A925E163BE34A40D /* PySwiftyRegex.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A1EBDD3BC77EFE921F5EFB115E0E3B3D /* ActiveLabel */ = {
@@ -540,33 +704,16 @@
 			);
 			name = ActiveLabel;
 			productName = ActiveLabel;
-			productReference = F96415AF726A7DC4C5E00AF88C32A41C /* ActiveLabel.framework */;
+			productReference = 27DD3FAEFDECD018DA32354B79646B3B /* ActiveLabel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BB814DEB9D28BEFFD7C241985D5B9BC1 /* SCLAlertView */ = {
+		F49934AEF362D4A8378523A830579728 /* SideMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9CF1F57C2AEFFEE7DA6F7E857633E606 /* Build configuration list for PBXNativeTarget "SCLAlertView" */;
+			buildConfigurationList = C381A76CDF76095FED8F4D33307BD1DF /* Build configuration list for PBXNativeTarget "SideMenu" */;
 			buildPhases = (
-				14450310A573CBE2930C4C06C74332EA /* Sources */,
-				ABCE5AAF1F8CFE6E11C25B57989447AF /* Frameworks */,
-				657BAB3CF93A07FA05FA30D1B04955A2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SCLAlertView;
-			productName = SCLAlertView;
-			productReference = 09E8D98D947995D6657A44C7C2E46DE2 /* SCLAlertView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F7111F7A6889AB9EBF2C690064BA5DA6 /* SideMenu */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 05C452A0C2626F89A4ED729D7AC20340 /* Build configuration list for PBXNativeTarget "SideMenu" */;
-			buildPhases = (
-				90F309FA1C0AAC714B2C16C8DEFB1A68 /* Sources */,
-				13B66CD1692C1EE103F8C2602749788D /* Frameworks */,
-				49DD27183C3475CF30BA5604A06209B5 /* Headers */,
+				4DE336C0B2B7CB47228D1C1F43A8E0A7 /* Sources */,
+				B59CD7E558E42826A3245EA67910D8C4 /* Frameworks */,
+				484F63AD83254717C444EF8820AF7FE7 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -574,7 +721,7 @@
 			);
 			name = SideMenu;
 			productName = SideMenu;
-			productReference = 6602132A4B8C883304C96775B901A16B /* SideMenu.framework */;
+			productReference = 2A8052A4458FC7864B0D47B0834D5868 /* SideMenu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -586,7 +733,10 @@
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				TargetAttributes = {
-					BB814DEB9D28BEFFD7C241985D5B9BC1 = {
+					1C2B18806D0F4C5CC27851A650656AC3 = {
+						LastSwiftMigration = 1010;
+					};
+					35AACA1864647C5E835285F346D25277 = {
 						LastSwiftMigration = 1010;
 					};
 				};
@@ -599,45 +749,41 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 63DD0D59539A9B65C2E7987106F74E5E /* Products */;
+			productRefGroup = 951F88EF21B7121298EA76F10ED83768 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A1EBDD3BC77EFE921F5EFB115E0E3B3D /* ActiveLabel */,
 				37E9DC11DD5930F61F39665A9E2A0B08 /* Persei */,
-				7E6EAA15407059137427E0A85A8E6FA4 /* Pods-Fairytale */,
-				3CF7017E724569D4F473CD2FA857709A /* PySwiftyRegex */,
-				BB814DEB9D28BEFFD7C241985D5B9BC1 /* SCLAlertView */,
-				F7111F7A6889AB9EBF2C690064BA5DA6 /* SideMenu */,
+				17274E02D60C06619504E6CF11946CA9 /* Pods-Fairytale */,
+				1C2B18806D0F4C5CC27851A650656AC3 /* Presentr */,
+				41DB12E26FC2F6ADF9290AA996197E24 /* PySwiftyRegex */,
+				35AACA1864647C5E835285F346D25277 /* SCLAlertView */,
+				F49934AEF362D4A8378523A830579728 /* SideMenu */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		E4259934AD5040B298A34CE201618A9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA7DEF40541B9E0F561E4891B36A052 /* AlertViewController.xib in Resources */,
+				948D944F8AA0CCF22FD4EC9F7006CAE6 /* Montserrat-Regular.ttf in Resources */,
+				EAB21DD04CA0B45423E3C0B6ACD33A11 /* SourceSansPro-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		125DAF07C49CA7251633DD1E68BD618E /* Sources */ = {
+		204E3EACE2243D547E03F07C0BD1AA05 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AAE1F74D0E42D742309B7B618B75CCB /* PySwiftyRegex-dummy.m in Sources */,
-				192A5A60239AE234A67F9FC4634DF5BE /* PySwiftyRegex.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		14450310A573CBE2930C4C06C74332EA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0CEB3617E59295915B0FFC590FF8C03F /* SCLAlertView-dummy.m in Sources */,
-				B19C5E953251D33874C72CEAA79FF425 /* SCLAlertView.swift in Sources */,
-				44A8FE0CE49C2545C0E22D58C1A41F30 /* SCLExtensions.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		19755669036BC9292BD05CFACB47A454 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5987EE32DCC0946AC06B401C88C5024B /* Pods-Fairytale-dummy.m in Sources */,
+				5E27D3399A8880DA408A2E899887889E /* PySwiftyRegex-dummy.m in Sources */,
+				AB14DF59B32F0F6E12A45B8EB9A4AD7A /* PySwiftyRegex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,15 +800,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90F309FA1C0AAC714B2C16C8DEFB1A68 /* Sources */ = {
+		4DE336C0B2B7CB47228D1C1F43A8E0A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67407E229C137A706AEE19B3C394DDE8 /* SideMenu-dummy.m in Sources */,
-				8B4080EE8E0F4BC8E5E90B8A1AFC20D1 /* SideMenuManager.swift in Sources */,
-				EA91F61C00E9EA8FD5AAB4AFC7391673 /* SideMenuTransition.swift in Sources */,
-				FB6CAA2953D320CF3DFB650DBC168EEC /* UISideMenuNavigationController.swift in Sources */,
-				05838E526442110DCF8F9D7A184EACC5 /* UITableViewVibrantCell.swift in Sources */,
+				4C27B16DD3292318BD02818475515F14 /* SideMenu-dummy.m in Sources */,
+				B4CB8AE97986101ABEEF146F4C0F5D0D /* SideMenuManager.swift in Sources */,
+				F3FB98BA93E7DD2D904A51A8BFF41447 /* SideMenuTransition.swift in Sources */,
+				1DD94FC422081AB07BFB4474BCC2B0C7 /* UISideMenuNavigationController.swift in Sources */,
+				46EB5AFBE60F21166DF91C19F953A2DE /* UITableViewVibrantCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7304137D8153C333AFA83A67E85A380E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6C1841EAC4BE33452D548B10A14CB3 /* AlertViewController.swift in Sources */,
+				162D21A92F281CA772044BADEF5F12FD /* BackgroundView.swift in Sources */,
+				AA0A5DEBD1888154E9658137F1AB6138 /* CoverFromCornerAnimation.swift in Sources */,
+				BCD8852CAA217B3676A5F285D9787A85 /* CoverHorizontalAnimation.swift in Sources */,
+				D4DDB8D80F9C2FF727A6F272F40CEBB9 /* CoverVerticalAnimation.swift in Sources */,
+				24CCBD64AC793BD8822D3E167D5745FC /* CoverVerticalFromTopAnimation.swift in Sources */,
+				AE97316C19AAAE76B1A8B994BD6ACAE1 /* CrossDissolveAnimation.swift in Sources */,
+				D7DFC39250D71773126E2FC10F85EC1B /* FlipHorizontalAnimation.swift in Sources */,
+				4F9FEAB89F9AE22B614C631992F66E0A /* KeyboardTranslation.swift in Sources */,
+				36371BF1FCC206AB8D33311B08ADFAD6 /* ModalCenterPosition.swift in Sources */,
+				100A8B4A5D9678C634CA73FE90108F92 /* ModalSize.swift in Sources */,
+				9EC683BFA13CF1B8A6D226C812A95F79 /* PresentationType.swift in Sources */,
+				84A0C953E1A6AF82776FE4E5C622E9AB /* Presentr+Equatable.swift in Sources */,
+				753F69BA6C2FBFD515FE8E5531943509 /* Presentr-dummy.m in Sources */,
+				2950F8FB67F479B924331D4F9BEEBE99 /* Presentr.swift in Sources */,
+				64FC34059300285816AC74C77317ABEF /* PresentrAnimation.swift in Sources */,
+				BDA6D767C7682BD6E2951913E837BDA5 /* PresentrController.swift in Sources */,
+				534D9C099C05AEC0A1B2AC29BB79A44E /* PresentrShadow.swift in Sources */,
+				B9E47A9552F4263A58F1F7968891C338 /* TransitionType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A616987F11C5BE43F2C4464B6AFFC4C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D942C6D8BBBB131112E2BC7B01EA4BAA /* Pods-Fairytale-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4D0B919F84A295C8A87DC40A6A6499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC85B003A2AAE59E23920B3CF1DF917 /* SCLAlertView-dummy.m in Sources */,
+				F64075E848AC875789313D18F5532E7A /* SCLAlertView.swift in Sources */,
+				95AEAD3BD06A11E673C716180BCA758F /* SCLExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,140 +875,48 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5F4A5D08614BCEA5F9FBFDCEFD7D3F7A /* PBXTargetDependency */ = {
+		1DB4C668D9C8EE7BAB88C3AB98F5C81A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SCLAlertView;
-			target = BB814DEB9D28BEFFD7C241985D5B9BC1 /* SCLAlertView */;
-			targetProxy = 0949B5D69F95753921120340E84BFEC8 /* PBXContainerItemProxy */;
+			name = SideMenu;
+			target = F49934AEF362D4A8378523A830579728 /* SideMenu */;
+			targetProxy = 37E54A0173DBF26855281ED6F46B4FFF /* PBXContainerItemProxy */;
 		};
-		679F42195030AEF1C199E610DD222DE0 /* PBXTargetDependency */ = {
+		2EB0D6F5EA1B7F8E11BD25EBBCFB3E72 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ActiveLabel;
 			target = A1EBDD3BC77EFE921F5EFB115E0E3B3D /* ActiveLabel */;
-			targetProxy = 3708D75E03EAECAC4208AFC778823B05 /* PBXContainerItemProxy */;
+			targetProxy = 1F6C8CDF8B44654B9ECD019D3EA0C47B /* PBXContainerItemProxy */;
 		};
-		BD4D9CA7150D9AB57FA4D9DF6CB5E27D /* PBXTargetDependency */ = {
+		4AC14E6682F245B148412F9E7FC9B482 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SideMenu;
-			target = F7111F7A6889AB9EBF2C690064BA5DA6 /* SideMenu */;
-			targetProxy = 2C091F358864B7C693324AFA52A245C0 /* PBXContainerItemProxy */;
+			name = SCLAlertView;
+			target = 35AACA1864647C5E835285F346D25277 /* SCLAlertView */;
+			targetProxy = 01921149131D8A5EF89EE8074F3A5BE2 /* PBXContainerItemProxy */;
 		};
-		E8017125485628D6E686673632B5017E /* PBXTargetDependency */ = {
+		88E90D64C5829D759381AE5E68012A33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PySwiftyRegex;
+			target = 41DB12E26FC2F6ADF9290AA996197E24 /* PySwiftyRegex */;
+			targetProxy = CEBBDC5604E654E2C61609F88EEFEA11 /* PBXContainerItemProxy */;
+		};
+		D7CFD555C5302896B529C49DA28FFC7B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Persei;
 			target = 37E9DC11DD5930F61F39665A9E2A0B08 /* Persei */;
-			targetProxy = 89B4E1C96AFEE4C34EDA254D1080519F /* PBXContainerItemProxy */;
+			targetProxy = BB9D720C6C10CD76663EA98330E93CE6 /* PBXContainerItemProxy */;
 		};
-		EE6A3D58F6146217BCDA883FFEFC58EF /* PBXTargetDependency */ = {
+		F6D154488DB32CEBFB2080183C112F17 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = PySwiftyRegex;
-			target = 3CF7017E724569D4F473CD2FA857709A /* PySwiftyRegex */;
-			targetProxy = 8A281AD92DE67BE6AFC94869D6F70278 /* PBXContainerItemProxy */;
+			name = Presentr;
+			target = 1C2B18806D0F4C5CC27851A650656AC3 /* Presentr */;
+			targetProxy = AF38789E9208D48D7879675F597C1300 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		20C01815EC900A0BFB4F8284B24E036A /* Debug */ = {
+		049A687F82B2629BE61BFE6C871A665F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA68B88B623F633C599AABA1F3D35CA6 /* ActiveLabel.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ActiveLabel/ActiveLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ActiveLabel/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ActiveLabel/ActiveLabel.modulemap";
-				PRODUCT_MODULE_NAME = ActiveLabel;
-				PRODUCT_NAME = ActiveLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		21F1B6B37F7CAA6751AD1262CDEA1458 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED5146501113E74EB8D2E139B7516A2A /* SideMenu.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
-				PRODUCT_MODULE_NAME = SideMenu;
-				PRODUCT_NAME = SideMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2C59BC24B19D03B6541BF554DB206B80 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBFAE0BFAECF37C7BA44FFCF2802F95B /* Persei.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Persei/Persei-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Persei/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Persei/Persei.modulemap";
-				PRODUCT_MODULE_NAME = Persei;
-				PRODUCT_NAME = Persei;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3F4EC2E87BB00B8B59B5B859268E79D8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBA2D9CD4F2D361514CF98C559F1BCCB /* SCLAlertView.xcconfig */;
+			baseConfigurationReference = 0C8BF314C146BA22C9702860D0048ED0 /* SCLAlertView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -848,9 +946,9 @@
 			};
 			name = Debug;
 		};
-		4040BE8CE7B5B8F823B6D7AA119D352C /* Debug */ = {
+		20C01815EC900A0BFB4F8284B24E036A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D949172BF51AC86520F25F92E6D0327 /* PySwiftyRegex.xcconfig */;
+			baseConfigurationReference = BBB848E8513AFE58F0DDADA4FACF2BE5 /* ActiveLabel.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -861,14 +959,82 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PySwiftyRegex/PySwiftyRegex-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PySwiftyRegex/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ActiveLabel/ActiveLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActiveLabel/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PySwiftyRegex/PySwiftyRegex.modulemap";
-				PRODUCT_MODULE_NAME = PySwiftyRegex;
-				PRODUCT_NAME = PySwiftyRegex;
+				MODULEMAP_FILE = "Target Support Files/ActiveLabel/ActiveLabel.modulemap";
+				PRODUCT_MODULE_NAME = ActiveLabel;
+				PRODUCT_NAME = ActiveLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2A1E9DA343ACD83A6288D0C18878EA45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD4E723F3A46E164134A16465D950889 /* Pods-Fairytale.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Fairytale/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Fairytale/Pods-Fairytale.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C59BC24B19D03B6541BF554DB206B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D2377FCD413CB1983251065E8A1C3DE /* Persei.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Persei/Persei-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Persei/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Persei/Persei.modulemap";
+				PRODUCT_MODULE_NAME = Persei;
+				PRODUCT_NAME = Persei;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -943,42 +1109,6 @@
 			};
 			name = Debug;
 		};
-		574594CBE8240452E2D7AE3B5B52DD97 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD4E723F3A46E164134A16465D950889 /* Pods-Fairytale.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Fairytale/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Fairytale/Pods-Fairytale.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1039,7 +1169,7 @@
 		};
 		66BC0622145D16C3CA46AEB7F49B3E2F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBFAE0BFAECF37C7BA44FFCF2802F95B /* Persei.xcconfig */;
+			baseConfigurationReference = 6D2377FCD413CB1983251065E8A1C3DE /* Persei.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1070,9 +1200,74 @@
 			};
 			name = Release;
 		};
+		6CA65F2F4CD3CA0308E404551AAEB9BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9687FEEADCBB73A7010CA44123A8F2B4 /* SideMenu.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		771CC6D0D9A7A022FBE95BF97777C05A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0E687A4EEFEF8677E5F2F0E248E6B4E /* PySwiftyRegex.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PySwiftyRegex/PySwiftyRegex-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PySwiftyRegex/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PySwiftyRegex/PySwiftyRegex.modulemap";
+				PRODUCT_MODULE_NAME = PySwiftyRegex;
+				PRODUCT_NAME = PySwiftyRegex;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		7C7AC9ADDCDD236200E9533FA5F1DE9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA68B88B623F633C599AABA1F3D35CA6 /* ActiveLabel.xcconfig */;
+			baseConfigurationReference = BBB848E8513AFE58F0DDADA4FACF2BE5 /* ActiveLabel.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1103,7 +1298,172 @@
 			};
 			name = Release;
 		};
-		931082DAA7B62D2E9A395F35181E15B9 /* Release */ = {
+		7F4895BE370A940F71699B5B8091B7C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9687FEEADCBB73A7010CA44123A8F2B4 /* SideMenu.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C584C1516BBC1AE71986B620CF4420A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0403C96790942780C6DF08BEE77571A8 /* Presentr.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Presentr/Presentr-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Presentr/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Presentr/Presentr.modulemap";
+				PRODUCT_MODULE_NAME = Presentr;
+				PRODUCT_NAME = Presentr;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A997A33600B19656C139E9CAF1E30A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C8BF314C146BA22C9702860D0048ED0 /* SCLAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				PRODUCT_MODULE_NAME = SCLAlertView;
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC01A8ABAF3C026C25A7B28C390BF8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0E687A4EEFEF8677E5F2F0E248E6B4E /* PySwiftyRegex.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PySwiftyRegex/PySwiftyRegex-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PySwiftyRegex/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PySwiftyRegex/PySwiftyRegex.modulemap";
+				PRODUCT_MODULE_NAME = PySwiftyRegex;
+				PRODUCT_NAME = PySwiftyRegex;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC99DBD421D10C8C8C590A2DB5532236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0403C96790942780C6DF08BEE77571A8 /* Presentr.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Presentr/Presentr-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Presentr/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Presentr/Presentr.modulemap";
+				PRODUCT_MODULE_NAME = Presentr;
+				PRODUCT_NAME = Presentr;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CBB367B9D5E1BF127558FBE632239F6A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 30B89D2BE8BCABE4650F45050916B3D0 /* Pods-Fairytale.release.xcconfig */;
 			buildSettings = {
@@ -1139,122 +1499,14 @@
 			};
 			name = Release;
 		};
-		9CCA6276F501EFF15BAE4DDD5FC5AA39 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D949172BF51AC86520F25F92E6D0327 /* PySwiftyRegex.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PySwiftyRegex/PySwiftyRegex-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PySwiftyRegex/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PySwiftyRegex/PySwiftyRegex.modulemap";
-				PRODUCT_MODULE_NAME = PySwiftyRegex;
-				PRODUCT_NAME = PySwiftyRegex;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DC8BEB665EFC2AAE7AA54814BD6F3507 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED5146501113E74EB8D2E139B7516A2A /* SideMenu.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
-				PRODUCT_MODULE_NAME = SideMenu;
-				PRODUCT_NAME = SideMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F2EC7FEC54AD6F76BDC784334A9E5462 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBA2D9CD4F2D361514CF98C559F1BCCB /* SCLAlertView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
-				PRODUCT_MODULE_NAME = SCLAlertView;
-				PRODUCT_NAME = SCLAlertView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05C452A0C2626F89A4ED729D7AC20340 /* Build configuration list for PBXNativeTarget "SideMenu" */ = {
+		1B9A78410024365CC013699EA45EC349 /* Build configuration list for PBXNativeTarget "PySwiftyRegex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC8BEB665EFC2AAE7AA54814BD6F3507 /* Debug */,
-				21F1B6B37F7CAA6751AD1262CDEA1458 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		29DE6D8883854A1CB9D0AC2D4CB69567 /* Build configuration list for PBXNativeTarget "Pods-Fairytale" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				574594CBE8240452E2D7AE3B5B52DD97 /* Debug */,
-				931082DAA7B62D2E9A395F35181E15B9 /* Release */,
+				771CC6D0D9A7A022FBE95BF97777C05A /* Debug */,
+				BC01A8ABAF3C026C25A7B28C390BF8C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1268,6 +1520,24 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		3DED6BD1493FDD01F2A63B41E2A11807 /* Build configuration list for PBXNativeTarget "Presentr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C584C1516BBC1AE71986B620CF4420A /* Debug */,
+				BC99DBD421D10C8C8C590A2DB5532236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B366340BA4C863B3B687995C9390513 /* Build configuration list for PBXNativeTarget "Pods-Fairytale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1E9DA343ACD83A6288D0C18878EA45 /* Debug */,
+				CBB367B9D5E1BF127558FBE632239F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7C713D696F95B53915F067173A28BD91 /* Build configuration list for PBXNativeTarget "ActiveLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1277,11 +1547,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9CF1F57C2AEFFEE7DA6F7E857633E606 /* Build configuration list for PBXNativeTarget "SCLAlertView" */ = {
+		7EE8D6ECEFED62C6039C9FDB7DB9B366 /* Build configuration list for PBXNativeTarget "SCLAlertView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F4EC2E87BB00B8B59B5B859268E79D8 /* Debug */,
-				F2EC7FEC54AD6F76BDC784334A9E5462 /* Release */,
+				049A687F82B2629BE61BFE6C871A665F /* Debug */,
+				A997A33600B19656C139E9CAF1E30A92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1295,11 +1565,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F614C920CFD45D652A3B1741F4C7D697 /* Build configuration list for PBXNativeTarget "PySwiftyRegex" */ = {
+		C381A76CDF76095FED8F4D33307BD1DF /* Build configuration list for PBXNativeTarget "SideMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4040BE8CE7B5B8F823B6D7AA119D352C /* Debug */,
-				9CCA6276F501EFF15BAE4DDD5FC5AA39 /* Release */,
+				6CA65F2F4CD3CA0308E404551AAEB9BB /* Debug */,
+				7F4895BE370A940F71699B5B8091B7C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

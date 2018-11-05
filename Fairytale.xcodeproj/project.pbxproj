@@ -16,13 +16,20 @@
 		6E25E3C02173226400A99597 /* Keyword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E25E3BF2173226400A99597 /* Keyword.swift */; };
 		6E25E3C22173228F00A99597 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E25E3C12173228F00A99597 /* Setting.swift */; };
 		6E25E3D12173540300A99597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E25E3CF2173540300A99597 /* Main.storyboard */; };
-		6E25E3D32173542000A99597 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E25E3D22173542000A99597 /* SettingViewController.swift */; };
 		6E25E3D421735BD400A99597 /* ActiveLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E25E3D821735BD400A99597 /* ActiveLabel.framework */; };
 		6E25E3D521735BD400A99597 /* Persei.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E25E3D921735BD400A99597 /* Persei.framework */; };
 		6E25E3D621735BD400A99597 /* PySwiftyRegex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E25E3DA21735BD400A99597 /* PySwiftyRegex.framework */; };
 		6E25E3D721735BD400A99597 /* SCLAlertView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E25E3DB21735BD400A99597 /* SCLAlertView.framework */; };
+		950A13FE218DE4240038605F /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950A13FD218DE4240038605F /* SideMenuController.swift */; };
 		95865C7D2185CD1E00C0C9A2 /* TextBoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95865C7C2185CD1E00C0C9A2 /* TextBoardCell.swift */; };
 		95865C802186135600C0C9A2 /* fairytales.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 95865C7F2186135600C0C9A2 /* fairytales.bundle */; };
+		95EFF52C218ED218000BE101 /* FontSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EFF52B218ED218000BE101 /* FontSizeView.swift */; };
+		95EFF52E218ED231000BE101 /* BrightChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EFF52D218ED231000BE101 /* BrightChangeView.swift */; };
+		95EFF530218ED240000BE101 /* ScreenLockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EFF52F218ED240000BE101 /* ScreenLockView.swift */; };
+		95EFF532218ED25E000BE101 /* LanguageSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EFF531218ED25E000BE101 /* LanguageSelectView.swift */; };
+		95EFF536218F3989000BE101 /* BookCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EFF535218F3989000BE101 /* BookCollectionCell.swift */; };
+		95EFF538218F3B4C000BE101 /* SelectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EFF537218F3B4C000BE101 /* SelectingView.swift */; };
+		95EFF53A218F49A8000BE101 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EFF539218F49A8000BE101 /* DetailView.swift */; };
 		C3C16267CBB7568F6B4118DF /* Pods_Fairytale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A4DF2A075874F749BC26498 /* Pods_Fairytale.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,15 +46,22 @@
 		6E25E3BF2173226400A99597 /* Keyword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyword.swift; sourceTree = "<group>"; };
 		6E25E3C12173228F00A99597 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 		6E25E3D02173540300A99597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6E25E3D22173542000A99597 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		6E25E3D821735BD400A99597 /* ActiveLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ActiveLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E25E3D921735BD400A99597 /* Persei.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Persei.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E25E3DA21735BD400A99597 /* PySwiftyRegex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PySwiftyRegex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E25E3DB21735BD400A99597 /* SCLAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E25E3DD21736B7100A99597 /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4DF2A075874F749BC26498 /* Pods_Fairytale.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fairytale.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		950A13FD218DE4240038605F /* SideMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
 		95865C7C2185CD1E00C0C9A2 /* TextBoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBoardCell.swift; sourceTree = "<group>"; };
 		95865C7F2186135600C0C9A2 /* fairytales.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = fairytales.bundle; sourceTree = "<group>"; };
+		95EFF52B218ED218000BE101 /* FontSizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizeView.swift; sourceTree = "<group>"; };
+		95EFF52D218ED231000BE101 /* BrightChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightChangeView.swift; sourceTree = "<group>"; };
+		95EFF52F218ED240000BE101 /* ScreenLockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenLockView.swift; sourceTree = "<group>"; };
+		95EFF531218ED25E000BE101 /* LanguageSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectView.swift; sourceTree = "<group>"; };
+		95EFF535218F3989000BE101 /* BookCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionCell.swift; sourceTree = "<group>"; };
+		95EFF537218F3B4C000BE101 /* SelectingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectingView.swift; sourceTree = "<group>"; };
+		95EFF539218F49A8000BE101 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		FCBF0E2658F12C2D5380DEE2 /* Pods-Fairytale.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fairytale.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fairytale/Pods-Fairytale.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,16 +113,24 @@
 			children = (
 				95865C7F2186135600C0C9A2 /* fairytales.bundle */,
 				95865C7E2185CD2900C0C9A2 /* Class */,
+				950A13FC218DE0420038605F /* MainView */,
 				6E25E3A92170639A00A99597 /* AppDelegate.swift */,
-				6E25E3AB2170639A00A99597 /* ViewController.swift */,
-				6E25E3D22173542000A99597 /* SettingViewController.swift */,
-				95865C7C2185CD1E00C0C9A2 /* TextBoardCell.swift */,
-				6E25E3CF2173540300A99597 /* Main.storyboard */,
 				6E25E3B22170639B00A99597 /* LaunchScreen.storyboard */,
 				6E25E3B52170639B00A99597 /* Info.plist */,
 				6E25E3B02170639B00A99597 /* Assets.xcassets */,
 			);
 			path = Fairytale;
+			sourceTree = "<group>";
+		};
+		950A13FC218DE0420038605F /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				6E25E3CF2173540300A99597 /* Main.storyboard */,
+				95EFF534218F0895000BE101 /* Infomation */,
+				95EFF533218F087A000BE101 /* Contents */,
+				95EFF52A218ED1F3000BE101 /* PopUp */,
+			);
+			path = MainView;
 			sourceTree = "<group>";
 		};
 		95865C7E2185CD2900C0C9A2 /* Class */ = {
@@ -120,6 +142,37 @@
 				6E25E3C12173228F00A99597 /* Setting.swift */,
 			);
 			path = Class;
+			sourceTree = "<group>";
+		};
+		95EFF52A218ED1F3000BE101 /* PopUp */ = {
+			isa = PBXGroup;
+			children = (
+				95EFF52B218ED218000BE101 /* FontSizeView.swift */,
+				95EFF52D218ED231000BE101 /* BrightChangeView.swift */,
+				95EFF52F218ED240000BE101 /* ScreenLockView.swift */,
+				95EFF531218ED25E000BE101 /* LanguageSelectView.swift */,
+			);
+			path = PopUp;
+			sourceTree = "<group>";
+		};
+		95EFF533218F087A000BE101 /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+				6E25E3AB2170639A00A99597 /* ViewController.swift */,
+				95865C7C2185CD1E00C0C9A2 /* TextBoardCell.swift */,
+				950A13FD218DE4240038605F /* SideMenuController.swift */,
+			);
+			path = Contents;
+			sourceTree = "<group>";
+		};
+		95EFF534218F0895000BE101 /* Infomation */ = {
+			isa = PBXGroup;
+			children = (
+				95EFF537218F3B4C000BE101 /* SelectingView.swift */,
+				95EFF535218F3989000BE101 /* BookCollectionCell.swift */,
+				95EFF539218F49A8000BE101 /* DetailView.swift */,
+			);
+			path = Infomation;
 			sourceTree = "<group>";
 		};
 		B1D56695082A98C4C16F4B71 /* Frameworks */ = {
@@ -234,6 +287,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Fairytale/Pods-Fairytale-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ActiveLabel/ActiveLabel.framework",
 				"${BUILT_PRODUCTS_DIR}/Persei/Persei.framework",
+				"${BUILT_PRODUCTS_DIR}/Presentr/Presentr.framework",
 				"${BUILT_PRODUCTS_DIR}/PySwiftyRegex/PySwiftyRegex.framework",
 				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
 				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
@@ -242,6 +296,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActiveLabel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Persei.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Presentr.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PySwiftyRegex.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
@@ -259,12 +314,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E25E3BE217321F900A99597 /* Subject.swift in Sources */,
+				95EFF52C218ED218000BE101 /* FontSizeView.swift in Sources */,
+				95EFF532218ED25E000BE101 /* LanguageSelectView.swift in Sources */,
+				95EFF530218ED240000BE101 /* ScreenLockView.swift in Sources */,
+				95EFF52E218ED231000BE101 /* BrightChangeView.swift in Sources */,
+				950A13FE218DE4240038605F /* SideMenuController.swift in Sources */,
+				95EFF536218F3989000BE101 /* BookCollectionCell.swift in Sources */,
 				6E25E3C02173226400A99597 /* Keyword.swift in Sources */,
 				6E25E3C22173228F00A99597 /* Setting.swift in Sources */,
+				95EFF538218F3B4C000BE101 /* SelectingView.swift in Sources */,
 				95865C7D2185CD1E00C0C9A2 /* TextBoardCell.swift in Sources */,
 				6E25E3AC2170639A00A99597 /* ViewController.swift in Sources */,
 				6E25E3AA2170639A00A99597 /* AppDelegate.swift in Sources */,
-				6E25E3D32173542000A99597 /* SettingViewController.swift in Sources */,
+				95EFF53A218F49A8000BE101 /* DetailView.swift in Sources */,
 				6E25E3BC21709FF200A99597 /* Book.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

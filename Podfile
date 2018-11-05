@@ -4,13 +4,12 @@
 target 'Fairytale' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-  # pod 'Presentr'
   pod 'Persei'
   pod 'ActiveLabel'
   pod 'PySwiftyRegex'
   pod 'SCLAlertView'
   pod 'SideMenu'
-
+  pod 'Presentr'
   # Pods for Fairytale
 
 end
