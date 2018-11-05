@@ -27,6 +27,8 @@ class TextBoardCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        mainLabel.backgroundColor = UIColor(white: 1, alpha: 0)
+        subLabel.backgroundColor = UIColor(white: 1, alpha: 0)
         for i in pattens{
             mainLabel.enabledTypes.append(i)
             mainLabel.customColor[i] = UIColor.purple

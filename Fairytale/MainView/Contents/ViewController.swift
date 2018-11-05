@@ -17,6 +17,7 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
     @IBOutlet weak var ContentTable: UITableView!
     @IBOutlet weak var MenuTap: UIView!
     
+    //나중에 파일 값 받아서 사용하도록
     let contentData = Book("rabbit&tutle")
     
     override func viewDidLoad() {
@@ -27,7 +28,7 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
         //FadeIn효과를 위한 초기화
         ContentTable.alpha = 0
         MenuTap.alpha = 0
-        
+        ContentTable.backgroundColor = UIColor(white: 1, alpha: 0)
         //스크롤바 숨김
         self.ContentTable.showsVerticalScrollIndicator = false
         //테이블뷰 구분선 숨김
@@ -37,6 +38,8 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
         
         //폰트 변경을 위한 Notify
         NotificationCenter.default.addObserver(self, selector: #selector(reloadTable), name:  Notification.Name(rawValue: "FontResize"), object: nil)
+        
+        //NotificationCenter.default.addObserver(self, selector: <#T##Selector#>, name: <#T##NSNotification.Name?#>, object: <#T##Any?#>)
     }
     
     override func didReceiveMemoryWarning() {
@@ -97,7 +100,16 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
             self.MenuTap.alpha = 1.0
         })
     }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        print(ContentTable.contentOffset.y)
+        print(ContentTable.contentSize.height - ContentTable.bounds.height + ContentTable.contentInset.bottom)
+    }
+    
     @objc func reloadTable(){
         ContentTable.reloadData()
+    }
+    @objc func changeBGColor(){
+        let colors = [UIColor.gray,UIColor.green,UIColor.brown]
     }
 }

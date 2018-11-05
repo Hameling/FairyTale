@@ -13,7 +13,7 @@ var selectedSection = 0
 var selectedItem = 0
 let contents_name = ["test1","test2"]
 
-class SelectingView: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+class SelectingView: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout{
     
     @IBOutlet weak var SelectView: UICollectionView!
     let sections = ["초급","중급","고급"]
@@ -69,6 +69,17 @@ class SelectingView: UIViewController, UICollectionViewDataSource, UICollectionV
         selectedSection = indexPath.section
         selectedItem = indexPath.row
         performSegue(withIdentifier: "showDetail", sender: self)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+        
+        let totalCellWidth = 171 * collectionView.numberOfItems(inSection: 0)
+        let totalSpacingWidth = 10 * (collectionView.numberOfItems(inSection: 0) - 1)
+        
+        let leftInset = (collectionView.frame.width - CGFloat(totalCellWidth + totalSpacingWidth)) / 2
+        let rightInset = leftInset
+        
+        return UIEdgeInsets(top: 0, left: leftInset, bottom: 0, right: rightInset)
     }
     
 }
