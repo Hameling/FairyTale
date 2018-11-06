@@ -1,0 +1,84 @@
+
+/* Class = "UIBarButtonItem"; title = "back"; ObjectID = "04T-6u-IEK"; */
+"04T-6u-IEK.title" = "back";
+
+/* Class = "UILabel"; text = "Sub Language Area"; ObjectID = "AGS-ox-Gcc"; */
+"AGS-ox-Gcc.text" = "Sub Language Area";
+
+/* Class = "UIViewController"; title = "ReadingView"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "ReadingView";
+
+/* Class = "UISegmentedControl"; Mck-a1-Mdl.segmentTitles[0] = "아주작음"; ObjectID = "Mck-a1-Mdl"; */
+"Mck-a1-Mdl.segmentTitles[0]" = "아주작음";
+
+/* Class = "UISegmentedControl"; Mck-a1-Mdl.segmentTitles[1] = "작음"; ObjectID = "Mck-a1-Mdl"; */
+"Mck-a1-Mdl.segmentTitles[1]" = "작음";
+
+/* Class = "UISegmentedControl"; Mck-a1-Mdl.segmentTitles[2] = "보통"; ObjectID = "Mck-a1-Mdl"; */
+"Mck-a1-Mdl.segmentTitles[2]" = "보통";
+
+/* Class = "UISegmentedControl"; Mck-a1-Mdl.segmentTitles[3] = "큼"; ObjectID = "Mck-a1-Mdl"; */
+"Mck-a1-Mdl.segmentTitles[3]" = "큼";
+
+/* Class = "UISegmentedControl"; Mck-a1-Mdl.segmentTitles[4] = "매우큼"; ObjectID = "Mck-a1-Mdl"; */
+"Mck-a1-Mdl.segmentTitles[4]" = "매우큼";
+
+/* Class = "UIButton"; normalTitle = "읽기"; ObjectID = "PcV-0R-6Ip"; */
+"PcV-0R-6Ip.normalTitle" = "읽기";
+
+/* Class = "UILabel"; text = "Main Language Area"; ObjectID = "Q7o-SN-i1j"; */
+"Q7o-SN-i1j.text" = "Main Language Area";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "SpC-2V-KCQ"; */
+"SpC-2V-KCQ.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Other"; ObjectID = "WHh-2j-g7t"; */
+"WHh-2j-g7t.normalTitle" = "Other";
+
+/* Class = "UILabel"; text = "Font Size"; ObjectID = "ZXM-qw-TMr"; */
+"ZXM-qw-TMr.text" = "Font Size";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bxR-gC-MIA"; */
+"bxR-gC-MIA.text" = "Label";
+
+/* Class = "UILabel"; text = "Sub"; ObjectID = "daB-NG-bwc"; */
+"daB-NG-bwc.text" = "Sub";
+
+/* Class = "UISegmentedControl"; g55-U4-Tmn.segmentTitles[0] = "First"; ObjectID = "g55-U4-Tmn"; */
+"g55-U4-Tmn.segmentTitles[0]" = "First";
+
+/* Class = "UISegmentedControl"; g55-U4-Tmn.segmentTitles[1] = "Second"; ObjectID = "g55-U4-Tmn"; */
+"g55-U4-Tmn.segmentTitles[1]" = "Second";
+
+/* Class = "UISegmentedControl"; gI6-Av-4v0.segmentTitles[0] = "First"; ObjectID = "gI6-Av-4v0"; */
+"gI6-Av-4v0.segmentTitles[0]" = "First";
+
+/* Class = "UISegmentedControl"; gI6-Av-4v0.segmentTitles[1] = "Second"; ObjectID = "gI6-Av-4v0"; */
+"gI6-Av-4v0.segmentTitles[1]" = "Second";
+
+/* Class = "UILabel"; text = "Main"; ObjectID = "iMI-ep-g6W"; */
+"iMI-ep-g6W.text" = "Main";
+
+/* Class = "UIButton"; normalTitle = "Test"; ObjectID = "jFL-zq-1dv"; */
+"jFL-zq-1dv.normalTitle" = "Test";
+
+/* Class = "UILabel"; text = "Brightness"; ObjectID = "jVV-S1-0rU"; */
+"jVV-S1-0rU.text" = "Brightness";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "nde-yy-fuW"; */
+"nde-yy-fuW.text" = "Label";
+
+/* Class = "UILabel"; text = "LanguageSelect"; ObjectID = "nkh-EK-TlE"; */
+"nkh-EK-TlE.text" = "LanguageSelect";
+
+/* Class = "UILabel"; text = "SectionName"; ObjectID = "pvU-y4-zFO"; */
+"pvU-y4-zFO.text" = "SectionName";
+
+/* Class = "UITextView"; text = "empty Text"; ObjectID = "qQC-8a-u9i"; */
+"qQC-8a-u9i.text" = "empty Text";
+
+/* Class = "UILabel"; text = "On/Off"; ObjectID = "rwm-1c-ZT4"; */
+"rwm-1c-ZT4.text" = "On/Off";
+
+/* Class = "UILabel"; text = "ScreenLock"; ObjectID = "xfa-yC-CMe"; */
+"xfa-yC-CMe.text" = "ScreenLock";

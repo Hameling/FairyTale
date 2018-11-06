@@ -18,6 +18,7 @@ class Book {
     var keyword_list : [Keyword] = []
     //책의 본문
     var main_content:[String] = []
+    var rusian_content:[String] = []
     
     
     init(_ filename:String){

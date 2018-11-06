@@ -17,14 +17,16 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
     @IBOutlet weak var ContentTable: UITableView!
     @IBOutlet weak var MenuTap: UIView!
     
+    var selectedTitle = ""
     //나중에 파일 값 받아서 사용하도록
-    let contentData = Book("rabbit&tutle")
+    let contentData = Book("토끼와 거북이")
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(selectedTitle)
         self.ContentTable.delegate = self
         self.ContentTable.dataSource = self
-        
+        self.BackgroudView.backgroundColor = UIColor.gray
         //FadeIn효과를 위한 초기화
         ContentTable.alpha = 0
         MenuTap.alpha = 0
@@ -38,8 +40,6 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
         
         //폰트 변경을 위한 Notify
         NotificationCenter.default.addObserver(self, selector: #selector(reloadTable), name:  Notification.Name(rawValue: "FontResize"), object: nil)
-        
-        //NotificationCenter.default.addObserver(self, selector: <#T##Selector#>, name: <#T##NSNotification.Name?#>, object: <#T##Any?#>)
     }
     
     override func didReceiveMemoryWarning() {
@@ -95,7 +95,7 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         //Fade In 구현
-        UIView.animate(withDuration: 1, animations: {
+        UIView.animate(withDuration: 0.5, animations: {
             self.ContentTable.alpha = 1.0
             self.MenuTap.alpha = 1.0
         })
@@ -104,12 +104,38 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         print(ContentTable.contentOffset.y)
         print(ContentTable.contentSize.height - ContentTable.bounds.height + ContentTable.contentInset.bottom)
+        let maxHeight = ContentTable.contentSize.height - ContentTable.bounds.height + ContentTable.contentInset.bottom
+        switch ContentTable.contentOffset.y {
+        case 0..<maxHeight/3:
+            if  BackgroudView.backgroundColor != UIColor.gray{
+                UIView.animate(withDuration: 0.5, animations: {
+                    self.BackgroudView.backgroundColor = UIColor.gray
+                })
+            }
+            //print("Result : 1")
+        case maxHeight/3..<maxHeight/3*2:
+            if  BackgroudView.backgroundColor != UIColor.green{
+                UIView.animate(withDuration: 0.5, animations: {
+                    self.BackgroudView.backgroundColor = UIColor.green
+                })
+            }
+            //print("Result : 2")
+        case maxHeight/3*2..<maxHeight:
+            if  BackgroudView.backgroundColor != UIColor.brown{
+                UIView.animate(withDuration: 0.5, animations: {
+                    self.BackgroudView.backgroundColor = UIColor.brown
+                })
+            }
+            //print("Result : 3")
+        default:
+            break
+        }
     }
     
+    @IBAction func DismissView(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
     @objc func reloadTable(){
         ContentTable.reloadData()
-    }
-    @objc func changeBGColor(){
-        let colors = [UIColor.gray,UIColor.green,UIColor.brown]
     }
 }

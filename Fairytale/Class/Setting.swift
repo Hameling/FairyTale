@@ -20,11 +20,5 @@ class Setting{
     var font_size:Int?                              //폰트 크기
     
     init(filename:String){
-        if isExist == true{
-        
-        }
-        else{
-            
-        }
     }
 }
