@@ -11,14 +11,14 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>Persei.xcscheme</key>
+		<key>Pods-Fairytale.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>Pods-Fairytale.xcscheme</key>
+		<key>Presentr.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -38,6 +38,13 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>4</integer>
+		</dict>
+		<key>SideMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>

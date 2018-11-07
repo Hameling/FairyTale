@@ -79,7 +79,7 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
         //보여주는 방법
         SideMenuManager.default.menuPresentMode = .viewSlideInOut
         //메뉴 색상(블러)
-        SideMenuManager.default.menuBlurEffectStyle = UIBlurEffect.Style.extraLight
+        SideMenuManager.default.menuBlurEffectStyle = UIBlurEffectStyle.extraLight
         //애니메이션 옵션
         SideMenuManager.default.menuAnimationOptions = .curveEaseIn
         //부가기능 메뉴 크기 변경
