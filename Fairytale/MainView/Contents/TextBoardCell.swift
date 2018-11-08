@@ -10,10 +10,14 @@ import UIKit
 import ActiveLabel
 import SCLAlertView
 
+class CustomLabel : ActiveLabel{
+    
+}
+
 class TextBoardCell: UITableViewCell {
 
-    @IBOutlet weak var mainLabel: ActiveLabel!
-    @IBOutlet weak var subLabel: ActiveLabel!
+    @IBOutlet weak var mainLabel: CustomLabel!
+    @IBOutlet weak var subLabel: CustomLabel!
     
     let pattens = [
         ActiveType.custom(pattern: "산신"),

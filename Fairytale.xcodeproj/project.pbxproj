@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6E010ABE2192C7330008FF0C /* Presentr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E010ABF2192C7330008FF0C /* Presentr.framework */; };
 		6E010AC02192C7360008FF0C /* SideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E010AC12192C7360008FF0C /* SideMenu.framework */; };
+		6E010AC3219324C30008FF0C /* keywords.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E010AC2219324C30008FF0C /* keywords.bundle */; };
 		6E25E3AA2170639A00A99597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E25E3A92170639A00A99597 /* AppDelegate.swift */; };
 		6E25E3AC2170639A00A99597 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E25E3AB2170639A00A99597 /* ViewController.swift */; };
 		6E25E3B12170639B00A99597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E25E3B02170639B00A99597 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 		034DDF491E513C39FDB4F248 /* Pods-Fairytale.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fairytale.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fairytale/Pods-Fairytale.release.xcconfig"; sourceTree = "<group>"; };
 		6E010ABF2192C7330008FF0C /* Presentr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Presentr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E010AC12192C7360008FF0C /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E010AC2219324C30008FF0C /* keywords.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = keywords.bundle; path = ../../../Downloads/keywords.bundle; sourceTree = "<group>"; };
 		6E25E3A62170639A00A99597 /* Fairytale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fairytale.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E25E3A92170639A00A99597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E25E3AB2170639A00A99597 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 		6E25E3A82170639A00A99597 /* Fairytale */ = {
 			isa = PBXGroup;
 			children = (
+				6E010AC2219324C30008FF0C /* keywords.bundle */,
 				95865C7F2186135600C0C9A2 /* fairytales.bundle */,
 				95865C7E2185CD2900C0C9A2 /* Class */,
 				950A13FC218DE0420038605F /* MainView */,
@@ -258,6 +261,7 @@
 			files = (
 				6E25E3D12173540300A99597 /* Main.storyboard in Resources */,
 				95865C802186135600C0C9A2 /* fairytales.bundle in Resources */,
+				6E010AC3219324C30008FF0C /* keywords.bundle in Resources */,
 				6E25E3B42170639B00A99597 /* LaunchScreen.storyboard in Resources */,
 				6E25E3B12170639B00A99597 /* Assets.xcassets in Resources */,
 			);
@@ -474,7 +478,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 686H4D7CLF;
 				INFOPLIST_FILE = Fairytale/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -491,7 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 686H4D7CLF;
 				INFOPLIST_FILE = Fairytale/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

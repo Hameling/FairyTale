@@ -19,14 +19,17 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
     
     var selectedTitle = ""
     //나중에 파일 값 받아서 사용하도록
-    let contentData = Book("토끼와 거북이")
+    //let contentData = Book("토끼와 거북이")
+    var contentData = Book()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(selectedTitle)
+        //print(selectedTitle)
+        contentData = Book(selectedTitle)
+        contentData.loadKeyword()
         self.ContentTable.delegate = self
         self.ContentTable.dataSource = self
-        self.BackgroudView.backgroundColor = UIColor.gray
+        //self.BackgroudView.backgroundColor = UIColor.gray
         //FadeIn효과를 위한 초기화
         ContentTable.alpha = 0
         MenuTap.alpha = 0
@@ -34,17 +37,16 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
         //스크롤바 숨김
         self.ContentTable.showsVerticalScrollIndicator = false
         //테이블뷰 구분선 숨김
-        //self.ContentTable.separatorStyle = UITableViewCell.SeparatorStyle.none
-        
+        self.ContentTable.separatorStyle = .none
+    
         setSideMenu()
-        
+        setStatus()
         //폰트 변경을 위한 Notify
         NotificationCenter.default.addObserver(self, selector: #selector(reloadTable), name:  Notification.Name(rawValue: "FontResize"), object: nil)
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     //테이블 뷰 갯수
@@ -56,7 +58,7 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let mainText = contentData.main_content[indexPath.row]
-        let subText = "Sub Language Text"
+        let subText = contentData.russian_content[indexPath.row]
         
         let cell = self.ContentTable.dequeueReusableCell(withIdentifier: "TextBoard") as! TextBoardCell
         
@@ -67,11 +69,11 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
         cell.selectionStyle = .none
         return cell
     }
-    
+    /*
     private func scrollViewDidScroll(scrollView: UIScrollView)  {
         let contentOffSet =  ContentTable.contentOffset.y
         print(contentOffSet)
-    }
+    }*/
 
     func setSideMenu(){
         //뷰 컨트롤러 등록
@@ -79,15 +81,17 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
         //보여주는 방법
         SideMenuManager.default.menuPresentMode = .viewSlideInOut
         //메뉴 색상(블러)
-        SideMenuManager.default.menuBlurEffectStyle = UIBlurEffectStyle.extraLight
+        //SideMenuManager.default.menuBlurEffectStyle = UIBlurEffectStyle.extraLight
         //애니메이션 옵션
         SideMenuManager.default.menuAnimationOptions = .curveEaseIn
         //부가기능 메뉴 크기 변경
-        SideMenuManager.default.menuWidth = 110
+        SideMenuManager.default.menuWidth = 80
     }
     
     func setStatus(){
-        defaults.set(17.0, forKey: "FontSize")
+        if defaults.object(forKey: "FontSize") == nil{
+            defaults.set(20.0, forKey: "FontSize")
+        }
         defaults.set("kor", forKey: "mainLang")
         defaults.set("rus", forKey: "subLang")
     }
@@ -100,10 +104,8 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
             self.MenuTap.alpha = 1.0
         })
     }
-    
+    /*
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        print(ContentTable.contentOffset.y)
-        print(ContentTable.contentSize.height - ContentTable.bounds.height + ContentTable.contentInset.bottom)
         let maxHeight = ContentTable.contentSize.height - ContentTable.bounds.height + ContentTable.contentInset.bottom
         switch ContentTable.contentOffset.y {
         case 0..<maxHeight/3:
@@ -130,12 +132,15 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
         default:
             break
         }
-    }
+    }*/
     
     @IBAction func DismissView(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
     @objc func reloadTable(){
         ContentTable.reloadData()
+    }
+    func getFairyTale()->String {
+        return selectedTitle
     }
 }

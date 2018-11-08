@@ -17,7 +17,9 @@ class DetailView: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        DetailImage.image = Subject_Info.logo_image[selectedSection][selectedItem]
         DetailTitle.text = Subject_Info.book_list[selectedSection][selectedItem]
+        DetailContent.text = Subject_Info.detailText
         self.reloadInputViews()
         // Do any additional setup after loading the view.
     }
@@ -26,10 +28,9 @@ class DetailView: UIViewController {
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showReadingView"{
-            
             let reading = segue.destination as! ViewController
-            
             reading.selectedTitle = Subject_Info.book_list[selectedSection][selectedItem]
+            defaults.set(Subject_Info.book_list[selectedSection][selectedItem], forKey: "CurrentFairyTale")
         }
     }
     @IBAction func exitView(_ sender: Any) {

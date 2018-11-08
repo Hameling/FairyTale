@@ -11,7 +11,6 @@ import UIKit
 
 var selectedSection = 0
 var selectedItem = 0
-let contents_name = ["test1","test2"]
 
 class SelectingView: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout{
     
@@ -20,9 +19,10 @@ class SelectingView: UIViewController, UICollectionViewDataSource, UICollectionV
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        SelectView.backgroundColor =  UIColor(white: 1, alpha: 0)
+        //SelectView.backgroundColor = UIColor(patternImage: UIImage(named:"backgroud.png")!)
         self.SelectView.dataSource = self
         self.SelectView.delegate = self
-        SelectView.alpha = 0
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -51,8 +51,8 @@ class SelectingView: UIViewController, UICollectionViewDataSource, UICollectionV
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = self.SelectView.dequeueReusableCell(withReuseIdentifier: "Collection_cell", for: indexPath) as! BookCollectionCell
-        cell.CollectionImage.image = #imageLiteral(resourceName: "file")
-        cell.CollectionName.text = Subject_Info.book_list[indexPath.section][indexPath.row]
+        cell.CollectionImage.image = Subject_Info.logo_image[indexPath.section][indexPath.row]
+        //cell.CollectionName.text = Subject_Info.book_list[indexPath.section][indexPath.row]
         return cell
     }
     

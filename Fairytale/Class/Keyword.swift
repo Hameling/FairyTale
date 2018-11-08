@@ -17,7 +17,7 @@ class Keyword{
     
     init(_ filename:String) {
         //차후 수정요먕
-        let bundlePath = Bundle.main.url(forResource: filename, withExtension: "txt", subdirectory: "fairytales.bundle")
+        let bundlePath = Bundle.main.url(forResource: filename, withExtension: "txt", subdirectory: "keywords.bundle")
         do {
             //파일 오픈
             let contents = try String(contentsOf: (bundlePath)!, encoding: .utf8)
