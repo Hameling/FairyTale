@@ -18,18 +18,19 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
     @IBOutlet weak var MenuTap: UIView!
     
     var selectedTitle = ""
-    //나중에 파일 값 받아서 사용하도록
     //let contentData = Book("토끼와 거북이")
     var contentData = Book()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         //print(selectedTitle)
-        contentData = Book(selectedTitle)
-        contentData.loadKeyword()
+        //contentData = Book(selectedTitle)
+        //contentData.loadKeyword()
+        //setPatten()
         self.ContentTable.delegate = self
         self.ContentTable.dataSource = self
         //self.BackgroudView.backgroundColor = UIColor.gray
+        
         //FadeIn효과를 위한 초기화
         ContentTable.alpha = 0
         MenuTap.alpha = 0
@@ -38,9 +39,11 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
         self.ContentTable.showsVerticalScrollIndicator = false
         //테이블뷰 구분선 숨김
         self.ContentTable.separatorStyle = .none
-    
+        
         setSideMenu()
         setStatus()
+        
+        
         //폰트 변경을 위한 Notify
         NotificationCenter.default.addObserver(self, selector: #selector(reloadTable), name:  Notification.Name(rawValue: "FontResize"), object: nil)
     }
@@ -95,6 +98,14 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
         defaults.set("kor", forKey: "mainLang")
         defaults.set("rus", forKey: "subLang")
     }
+    func setPatten(){
+        if kwds.count != 0 {
+            for i in contentData.keyword_list{
+                pattens.append(ActiveType.custom(pattern: i.keyword_name))
+                kwds.append(i)
+            }
+        }
+    }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
@@ -139,8 +150,5 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
     }
     @objc func reloadTable(){
         ContentTable.reloadData()
-    }
-    func getFairyTale()->String {
-        return selectedTitle
     }
 }

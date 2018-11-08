@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ActiveLabel
 
 class DetailView: UIViewController {
 
@@ -21,7 +22,6 @@ class DetailView: UIViewController {
         DetailTitle.text = Subject_Info.book_list[selectedSection][selectedItem]
         DetailContent.text = Subject_Info.detailText
         self.reloadInputViews()
-        // Do any additional setup after loading the view.
     }
     @IBAction func PerformReading(_ sender: Any) {
         performSegue(withIdentifier: "showReadingView", sender: self)
@@ -29,8 +29,14 @@ class DetailView: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showReadingView"{
             let reading = segue.destination as! ViewController
-            reading.selectedTitle = Subject_Info.book_list[selectedSection][selectedItem]
-            defaults.set(Subject_Info.book_list[selectedSection][selectedItem], forKey: "CurrentFairyTale")
+            //reading.selectedTitle = Subject_Info.book_list[selectedSection][selectedItem]
+            reading.contentData = Book(Subject_Info.book_list[selectedSection][selectedItem])
+            reading.contentData.loadKeyword()
+            for i in reading.contentData.keyword_list{
+                pattens.append(ActiveType.custom(pattern: i.keyword_name))
+                kwds.append(i)
+            }
+            
         }
     }
     @IBAction func exitView(_ sender: Any) {

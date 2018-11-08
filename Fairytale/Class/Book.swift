@@ -46,7 +46,7 @@ class Book {
                 let kwd_list = keyword_patten.findall(keyword_result)
                 for i in kwd_list{
                     keyword_title_list.append(i)
-                    print(i)
+                    //print(i)
                 }
             }
             
@@ -80,14 +80,17 @@ class Book {
     }
     
     func loadKeyword(){
+
         for i in keyword_title_list{
-            //let kwd = Keyword(i)
-            //keyword_list.append(kwd)
-            //keyword_list.append(Keyword(i))
+                //let kwd = Keyword(i)
+                //keyword_list.append(kwd)
+                //keyword_list.append(Keyword(i))
             if i != " "{
-                let k = Keyword(i)
-                print(k.keyword_contents)
+                let kwd = Keyword(i)
+                //print(kwd.keyword_contents)
+                keyword_list.append(kwd)
             }
         }
+        
     }
 }
