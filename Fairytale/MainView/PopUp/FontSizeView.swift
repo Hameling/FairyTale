@@ -20,7 +20,7 @@ class FontSizeView: UIViewController {
     @IBOutlet weak var FSSegue: UISegmentedControl!
     override func viewDidLoad() {
         super.viewDidLoad()
-        BackgroudView.backgroundColor = UIColor.lightGray.withAlphaComponent(0.9)
+        BackgroudView.backgroundColor = UIColor.white.withAlphaComponent(0.9)
         switch defaults.float(forKey: "FontSize") {
         case 15.0:
             FSSegue.selectedSegmentIndex = 0

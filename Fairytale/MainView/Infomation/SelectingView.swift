@@ -28,7 +28,7 @@ class SelectingView: UIViewController, UICollectionViewDataSource, UICollectionV
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         //Fade In 구현
-        UIView.animate(withDuration: 1, animations: {
+        UIView.animate(withDuration: 1.5, animations: {
             self.SelectView.alpha = 1.0
         })
     }

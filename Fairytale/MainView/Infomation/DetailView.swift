@@ -20,7 +20,7 @@ class DetailView: UIViewController {
         super.viewDidLoad()
         DetailImage.image = Subject_Info.logo_image[selectedSection][selectedItem]
         DetailTitle.text = Subject_Info.book_list[selectedSection][selectedItem]
-        DetailContent.text = Subject_Info.detailText
+        DetailContent.text = Subject_Info.detailText[selectedSection][selectedItem]
         self.reloadInputViews()
     }
     @IBAction func PerformReading(_ sender: Any) {

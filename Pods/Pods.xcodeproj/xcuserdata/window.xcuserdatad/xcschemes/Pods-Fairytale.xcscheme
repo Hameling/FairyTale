@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FDF4FD0789FE6E14183E5471AE7A6E2A"
+               BlueprintIdentifier = "033487D59B3EBD3CA9E3898FB3F14E20"
                BuildableName = "Pods_Fairytale.framework"
                BlueprintName = "Pods-Fairytale"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,7 +26,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -37,7 +36,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -47,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FDF4FD0789FE6E14183E5471AE7A6E2A"
+            BlueprintIdentifier = "033487D59B3EBD3CA9E3898FB3F14E20"
             BuildableName = "Pods_Fairytale.framework"
             BlueprintName = "Pods-Fairytale"
             ReferencedContainer = "container:Pods.xcodeproj">
