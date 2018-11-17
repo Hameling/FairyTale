@@ -10,31 +10,32 @@ import UIKit
 import ActiveLabel
 import SCLAlertView
 
+class CustomLabel : ActiveLabel{
+    
+}
+var pattens :[ActiveType] = []
+var kwds :[Keyword] = []
 class TextBoardCell: UITableViewCell {
 
-    @IBOutlet weak var mainLabel: ActiveLabel!
-    @IBOutlet weak var subLabel: ActiveLabel!
+    @IBOutlet weak var mainLabel: CustomLabel!
+    @IBOutlet weak var subLabel: CustomLabel!
     
-    let pattens = [
-        ActiveType.custom(pattern: "산신"),
-        ActiveType.custom(pattern: "여우"),
-        ActiveType.custom(pattern: "3개의 병")]
+
     
     func addText(main:String, sub:String){
         mainLabel.text = main
         subLabel.text = sub
     }
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         mainLabel.backgroundColor = UIColor(white: 1, alpha: 0)
         subLabel.backgroundColor = UIColor(white: 1, alpha: 0)
-        for i in pattens{
-            mainLabel.enabledTypes.append(i)
-            mainLabel.customColor[i] = UIColor.purple
-            mainLabel.customSelectedColor[i] = UIColor.gray
-            mainLabel.handleCustomTap(for: i){ element in
-                SCLAlertView().showInfo("키워드 이름", subTitle: "키워드 내용\n이렇습니다")
+        for i in 0..<pattens.count{
+            mainLabel.enabledTypes.append(pattens[i])
+            mainLabel.customColor[pattens[i]] = UIColor.orange
+            mainLabel.customSelectedColor[pattens[i]] = UIColor.gray
+            mainLabel.handleCustomTap(for: pattens[i]){ element in
+                SCLAlertView().showInfo(kwds[i].keyword_name, subTitle: kwds[i].keyword_contents + "\n" + kwds[i].russia_contents, colorStyle: 0xF9690E)
             }
         }
     }

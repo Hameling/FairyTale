@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina4_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,29 +18,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HSL-oD-77d">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loadingImage" translatesAutoresizingMaskIntoConstraints="NO" id="0PF-Fw-E1s">
                                 <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fairy Tales" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TdS-Cq-eGQ">
-                                        <rect key="frame" x="244" y="167.5" width="179" height="40"/>
-                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="34"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstItem="TdS-Cq-eGQ" firstAttribute="centerX" secondItem="HSL-oD-77d" secondAttribute="centerX" id="fY4-Ac-W3x"/>
-                                    <constraint firstItem="TdS-Cq-eGQ" firstAttribute="centerY" secondItem="HSL-oD-77d" secondAttribute="centerY" id="gs5-ob-fey"/>
-                                </constraints>
-                            </view>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="HSL-oD-77d" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="F3k-eA-1er"/>
-                            <constraint firstItem="HSL-oD-77d" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="TKW-5z-nNv"/>
-                            <constraint firstItem="HSL-oD-77d" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Y63-8l-RVD"/>
-                            <constraint firstItem="HSL-oD-77d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eg2-wn-aPZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0PF-Fw-E1s" secondAttribute="trailing" id="0OP-wK-eeZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0PF-Fw-E1s" secondAttribute="bottom" id="0cV-in-sZf"/>
+                            <constraint firstItem="0PF-Fw-E1s" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MIl-Cr-lwU"/>
+                            <constraint firstItem="0PF-Fw-E1s" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="rI9-Vi-pga"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -50,4 +37,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="loadingImage" width="1334" height="750"/>
+    </resources>
 </document>

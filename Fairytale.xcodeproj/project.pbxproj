@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E010ABE2192C7330008FF0C /* Presentr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E010ABF2192C7330008FF0C /* Presentr.framework */; };
+		6E010AC02192C7360008FF0C /* SideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E010AC12192C7360008FF0C /* SideMenu.framework */; };
 		6E25E3AA2170639A00A99597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E25E3A92170639A00A99597 /* AppDelegate.swift */; };
 		6E25E3AC2170639A00A99597 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E25E3AB2170639A00A99597 /* ViewController.swift */; };
 		6E25E3B12170639B00A99597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E25E3B02170639B00A99597 /* Assets.xcassets */; };
@@ -17,9 +19,9 @@
 		6E25E3C22173228F00A99597 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E25E3C12173228F00A99597 /* Setting.swift */; };
 		6E25E3D12173540300A99597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E25E3CF2173540300A99597 /* Main.storyboard */; };
 		6E25E3D421735BD400A99597 /* ActiveLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E25E3D821735BD400A99597 /* ActiveLabel.framework */; };
-		6E25E3D521735BD400A99597 /* Persei.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E25E3D921735BD400A99597 /* Persei.framework */; };
 		6E25E3D621735BD400A99597 /* PySwiftyRegex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E25E3DA21735BD400A99597 /* PySwiftyRegex.framework */; };
 		6E25E3D721735BD400A99597 /* SCLAlertView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E25E3DB21735BD400A99597 /* SCLAlertView.framework */; };
+		6EA3963C2195419400A65423 /* keywords.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6EA3963B2195419300A65423 /* keywords.bundle */; };
 		950A13FE218DE4240038605F /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950A13FD218DE4240038605F /* SideMenuController.swift */; };
 		95865C7D2185CD1E00C0C9A2 /* TextBoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95865C7C2185CD1E00C0C9A2 /* TextBoardCell.swift */; };
 		95865C802186135600C0C9A2 /* fairytales.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 95865C7F2186135600C0C9A2 /* fairytales.bundle */; };
@@ -35,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		034DDF491E513C39FDB4F248 /* Pods-Fairytale.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fairytale.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fairytale/Pods-Fairytale.release.xcconfig"; sourceTree = "<group>"; };
+		6E010ABF2192C7330008FF0C /* Presentr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Presentr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E010AC12192C7360008FF0C /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E25E3A62170639A00A99597 /* Fairytale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fairytale.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E25E3A92170639A00A99597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E25E3AB2170639A00A99597 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +55,7 @@
 		6E25E3DA21735BD400A99597 /* PySwiftyRegex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PySwiftyRegex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E25E3DB21735BD400A99597 /* SCLAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E25E3DD21736B7100A99597 /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA3963B2195419300A65423 /* keywords.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = keywords.bundle; sourceTree = "<group>"; };
 		8A4DF2A075874F749BC26498 /* Pods_Fairytale.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fairytale.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		950A13FD218DE4240038605F /* SideMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
 		95865C7C2185CD1E00C0C9A2 /* TextBoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBoardCell.swift; sourceTree = "<group>"; };
@@ -70,8 +75,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E010AC02192C7360008FF0C /* SideMenu.framework in Frameworks */,
+				6E010ABE2192C7330008FF0C /* Presentr.framework in Frameworks */,
 				6E25E3D421735BD400A99597 /* ActiveLabel.framework in Frameworks */,
-				6E25E3D521735BD400A99597 /* Persei.framework in Frameworks */,
 				6E25E3D621735BD400A99597 /* PySwiftyRegex.framework in Frameworks */,
 				6E25E3D721735BD400A99597 /* SCLAlertView.framework in Frameworks */,
 				C3C16267CBB7568F6B4118DF /* Pods_Fairytale.framework in Frameworks */,
@@ -111,6 +117,7 @@
 		6E25E3A82170639A00A99597 /* Fairytale */ = {
 			isa = PBXGroup;
 			children = (
+				6EA3963B2195419300A65423 /* keywords.bundle */,
 				95865C7F2186135600C0C9A2 /* fairytales.bundle */,
 				95865C7E2185CD2900C0C9A2 /* Class */,
 				950A13FC218DE0420038605F /* MainView */,
@@ -178,6 +185,8 @@
 		B1D56695082A98C4C16F4B71 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6E010AC12192C7360008FF0C /* SideMenu.framework */,
+				6E010ABF2192C7330008FF0C /* Presentr.framework */,
 				6E25E3DD21736B7100A99597 /* Eureka.framework */,
 				6E25E3D821735BD400A99597 /* ActiveLabel.framework */,
 				6E25E3D921735BD400A99597 /* Persei.framework */,
@@ -199,7 +208,7 @@
 				6E25E3A22170639A00A99597 /* Sources */,
 				6E25E3A32170639A00A99597 /* Frameworks */,
 				6E25E3A42170639A00A99597 /* Resources */,
-				7A2862E4FB24F0DD6AF515B2 /* [CP] Embed Pods Frameworks */,
+				E6BD496F70B52C5E599E1C18 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -222,7 +231,7 @@
 				TargetAttributes = {
 					6E25E3A52170639A00A99597 = {
 						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -254,6 +263,7 @@
 				95865C802186135600C0C9A2 /* fairytales.bundle in Resources */,
 				6E25E3B42170639B00A99597 /* LaunchScreen.storyboard in Resources */,
 				6E25E3B12170639B00A99597 /* Assets.xcassets in Resources */,
+				6EA3963C2195419400A65423 /* keywords.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +288,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7A2862E4FB24F0DD6AF515B2 /* [CP] Embed Pods Frameworks */ = {
+		E6BD496F70B52C5E599E1C18 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -286,7 +296,6 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Fairytale/Pods-Fairytale-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ActiveLabel/ActiveLabel.framework",
-				"${BUILT_PRODUCTS_DIR}/Persei/Persei.framework",
 				"${BUILT_PRODUCTS_DIR}/Presentr/Presentr.framework",
 				"${BUILT_PRODUCTS_DIR}/PySwiftyRegex/PySwiftyRegex.framework",
 				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
@@ -295,7 +304,6 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActiveLabel.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Persei.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Presentr.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PySwiftyRegex.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
@@ -472,7 +480,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 686H4D7CLF;
 				INFOPLIST_FILE = Fairytale/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.Sm.Apps.Fairytale;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -489,7 +497,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 686H4D7CLF;
 				INFOPLIST_FILE = Fairytale/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.Sm.Apps.Fairytale;
 				PRODUCT_NAME = "$(TARGET_NAME)";

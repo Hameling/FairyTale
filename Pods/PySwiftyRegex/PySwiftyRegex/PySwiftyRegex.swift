@@ -270,6 +270,7 @@ public class re {
         guard let result = result, result.range.length > 0 else {
           return
         }
+        
         end = string.characters.index(string.startIndex, offsetBy: result.range.location)
         results.append(String(string[start..<end]))
         if regex.numberOfCaptureGroups > 0 {

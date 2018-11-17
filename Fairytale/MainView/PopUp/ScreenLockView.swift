@@ -15,7 +15,7 @@ class ScreenLockView: UIViewController {
     var  ScreenLock = false
     override func viewDidLoad() {
         super.viewDidLoad()
-        BackgroudView.backgroundColor = UIColor.lightGray.withAlphaComponent(0.8)
+        BackgroudView.backgroundColor = UIColor.white.withAlphaComponent(0.9)
         defaults.set(false, forKey: "ScreenLockStat")
     }
     override func viewWillAppear(_ animated: Bool) {

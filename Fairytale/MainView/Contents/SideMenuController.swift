@@ -15,8 +15,9 @@ class SideMenuCell:UITableViewVibrantCell{
 }
 
 class SideMenuController: UITableViewController {
-    let icon_image = [#imageLiteral(resourceName: "settings-1"),#imageLiteral(resourceName: "font-size"),#imageLiteral(resourceName: "back-arrow")]
-    let icon_info = ["Setting", "Font Size", "Other"]
+    @IBOutlet var SDView: UITableView!
+    let icon_image = [#imageLiteral(resourceName: "font-size"),#imageLiteral(resourceName: "전구"),#imageLiteral(resourceName: "lock-off_2")]
+    let icon_info = ["Font Size", "Brightness", "ScreenLock"]
     
     let viewPatten :Presentr = {
         let width = ModalSize.fluid(percentage: 0.6)
@@ -48,7 +49,7 @@ class SideMenuController: UITableViewController {
         customPresenter.backgroundOpacity = 0.5
         return customPresenter
     }()
-    let test = Presentr(presentationType: .alert)
+    
     
     let FSView:FontSizeView = {
         let mainBoard = UIStoryboard(name: "Main", bundle: nil)
@@ -77,6 +78,7 @@ class SideMenuController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.SDView.separatorStyle = .none
     }
     
     override func viewWillAppear(_ animated: Bool) {

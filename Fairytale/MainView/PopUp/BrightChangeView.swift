@@ -18,7 +18,7 @@ class BrightChangeView: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        BackgroudView.backgroundColor = UIColor.lightGray.withAlphaComponent(0.8)
+        BackgroudView.backgroundColor = UIColor.white.withAlphaComponent(0.9)
         let CurrentBright = UIScreen.main.brightness
         Brightness_Slider.value = Float(CurrentBright)
     }
