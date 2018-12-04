@@ -16,12 +16,31 @@ class SideMenuCell:UITableViewVibrantCell{
 
 class SideMenuController: UITableViewController {
     @IBOutlet var SDView: UITableView!
-    let icon_image = [#imageLiteral(resourceName: "font-size"),#imageLiteral(resourceName: "전구"),#imageLiteral(resourceName: "lock-off_2")]
-    let icon_info = ["Font Size", "Brightness", "ScreenLock"]
+    let icon_image = [#imageLiteral(resourceName: "font-size"),#imageLiteral(resourceName: "전구"),#imageLiteral(resourceName: "Lock_on"),#imageLiteral(resourceName: "world")]
+    let other_icon = #imageLiteral(resourceName: "Lock_off")
+    let icon_info = ["Font Size".localized, "Brughtness".localized, "ScreenLock".localized,"Language".localized]
+
     
     let viewPatten :Presentr = {
         let width = ModalSize.fluid(percentage: 0.6)
         let height = ModalSize.fluid(percentage: 0.3)
+        let center = ModalCenterPosition.bottomCenter
+        let customType = PresentationType.custom(width: width, height: height, center: center)
+        
+        let customPresenter = Presentr(presentationType: customType)
+        customPresenter.transitionType = .coverVertical
+        customPresenter.dismissTransitionType = .crossDissolve
+        customPresenter.roundCorners = true
+        customPresenter.backgroundColor = .lightGray
+        customPresenter.backgroundOpacity = 0.5
+        customPresenter.dismissOnSwipe = true
+        customPresenter.dismissOnSwipeDirection = .bottom
+        return customPresenter
+    }()
+    
+    let doubleviewPatten :Presentr = {
+        let width = ModalSize.fluid(percentage: 0.6)
+        let height = ModalSize.fluid(percentage: 0.35)
         let center = ModalCenterPosition.bottomCenter
         let customType = PresentationType.custom(width: width, height: height, center: center)
         
@@ -79,6 +98,7 @@ class SideMenuController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.SDView.separatorStyle = .none
+        NotificationCenter.default.addObserver(self, selector: #selector(reloadTable), name:  Notification.Name(rawValue: "ReloadSideMenu"), object: nil)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -97,7 +117,11 @@ class SideMenuController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
         let cell = tableView.dequeueReusableCell(withIdentifier: "SubFunction", for: indexPath) as! SideMenuCell
-        cell.ImageTap.image = icon_image[indexPath.row]
+        if indexPath.row == 2 && defaults.bool(forKey: "ScreenLockStat"){
+            cell.ImageTap.image = other_icon
+        }else{
+            cell.ImageTap.image = icon_image[indexPath.row]
+        }
         cell.InfoTap.text = icon_info[indexPath.row]
         return cell
     }
@@ -111,14 +135,13 @@ class SideMenuController: UITableViewController {
             customPresentViewController(viewPatten, viewController: BCView, animated: true)
         case 2:
             customPresentViewController(popupPatten, viewController: SLView, animated: true)
-        /*
         case 3:
-            customPresentViewController(viewPatten, viewController: LSView, animated: true)
-        */
+            customPresentViewController(doubleviewPatten, viewController: LSView, animated: true)
         default:
             break
         }
     }
-    
-
+    @objc func reloadTable(){
+        SDView.reloadData()
+    }
 }

@@ -10,6 +10,7 @@ target 'Fairytale' do
   pod 'SCLAlertView'
   pod 'SideMenu', '~>5.0.3'
   pod 'Presentr'
+  pod 'BetterSegmentedControl', '~> 1.0'
   # Pods for Fairytale
 
 end

@@ -14,7 +14,7 @@ class FontSizeView: UIViewController {
     @IBAction func FontSizeSegue(_ segmentControl: UISegmentedControl) {
         let mode = [15.0,17.0,20.0,21.5,23.0]
         defaults.set(mode[segmentControl.selectedSegmentIndex], forKey: "FontSize")
-        NotificationCenter.default.post(name: Notification.Name(rawValue: "FontResize"), object: nil)
+        NotificationCenter.default.post(name: Notification.Name(rawValue: "ReloadTable"), object: nil)
         
     }
     @IBOutlet weak var FSSegue: UISegmentedControl!

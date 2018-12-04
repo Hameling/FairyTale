@@ -16,36 +16,36 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
     @IBOutlet var BackgroudView: UIView!
     @IBOutlet weak var ContentTable: UITableView!
     @IBOutlet weak var MenuTap: UIView!
+    @IBOutlet weak var BackgroudImage: UIImageView!
     
     var selectedTitle = ""
-    //let contentData = Book("토끼와 거북이")
     var contentData = Book()
+    let setProgress = Setting()
+    let subject = Subject()
+    var imageSet:[UIImage] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //print(selectedTitle)
-        //contentData = Book(selectedTitle)
-        //contentData.loadKeyword()
-        //setPatten()
+        
         self.ContentTable.delegate = self
         self.ContentTable.dataSource = self
-        //self.BackgroudView.backgroundColor = UIColor.gray
         
+        imageSet = self.subject.bg_list[selectedSection][selectedItem]
+        BackgroudImage.image = imageSet[0]
         //FadeIn효과를 위한 초기화
         ContentTable.alpha = 0
         MenuTap.alpha = 0
         ContentTable.backgroundColor = UIColor(white: 1, alpha: 0)
+        
         //스크롤바 숨김
         self.ContentTable.showsVerticalScrollIndicator = false
         //테이블뷰 구분선 숨김
         self.ContentTable.separatorStyle = .none
         
         setSideMenu()
-        setStatus()
-        
         
         //폰트 변경을 위한 Notify
-        NotificationCenter.default.addObserver(self, selector: #selector(reloadTable), name:  Notification.Name(rawValue: "FontResize"), object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(reloadTable), name:  Notification.Name(rawValue: "ReloadTable"), object: nil)
     }
     
     override func didReceiveMemoryWarning() {
@@ -60,8 +60,27 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
     //테이블 뷰 생성
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let mainText = contentData.main_content[indexPath.row]
-        let subText = contentData.russian_content[indexPath.row]
+        var mainText = "", subText = ""
+        switch defaults.string(forKey: "mainLang")!{
+        case "kor":
+            mainText = contentData.main_content[indexPath.row]
+        case "rus":
+            mainText = contentData.russian_content[indexPath.row]
+        case "jap":
+            mainText = contentData.japanese_content[indexPath.row]
+        default:
+            break;
+        }
+        switch defaults.string(forKey: "subLang")!{
+        case "kor":
+            subText = contentData.main_content[indexPath.row]
+        case "rus":
+            subText = contentData.russian_content[indexPath.row]
+        case "jap":
+            subText = contentData.japanese_content[indexPath.row]
+        default:
+            break;
+        }
         
         let cell = self.ContentTable.dequeueReusableCell(withIdentifier: "TextBoard") as! TextBoardCell
         
@@ -91,22 +110,6 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
         SideMenuManager.default.menuWidth = 80
     }
     
-    func setStatus(){
-        if defaults.object(forKey: "FontSize") == nil{
-            defaults.set(20.0, forKey: "FontSize")
-        }
-        defaults.set("kor", forKey: "mainLang")
-        defaults.set("rus", forKey: "subLang")
-    }
-    func setPatten(){
-        if kwds.count != 0 {
-            for i in contentData.keyword_list{
-                pattens.append(ActiveType.custom(pattern: i.keyword_name))
-                kwds.append(i)
-            }
-        }
-    }
-    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         //Fade In 구현
@@ -115,35 +118,41 @@ class ViewController : UIViewController, UITableViewDelegate, UITableViewDataSou
             self.MenuTap.alpha = 1.0
         })
     }
-    /*
+    
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let maxHeight = ContentTable.contentSize.height - ContentTable.bounds.height + ContentTable.contentInset.bottom
         switch ContentTable.contentOffset.y {
         case 0..<maxHeight/3:
-            if  BackgroudView.backgroundColor != UIColor.gray{
-                UIView.animate(withDuration: 0.5, animations: {
-                    self.BackgroudView.backgroundColor = UIColor.gray
+            if  BackgroudImage.image != imageSet[0]{
+                BackgroudImage.alpha = 0.0
+                UIView.animate(withDuration: 0.8, animations: {
+                    self.BackgroudImage.image = self.imageSet[0]
+                    self.BackgroudImage.alpha = 0.2
                 })
             }
             //print("Result : 1")
         case maxHeight/3..<maxHeight/3*2:
-            if  BackgroudView.backgroundColor != UIColor.green{
-                UIView.animate(withDuration: 0.5, animations: {
-                    self.BackgroudView.backgroundColor = UIColor.green
+            if  BackgroudImage.image != imageSet[1]{
+                BackgroudImage.alpha = 0.0
+                UIView.animate(withDuration: 0.8, animations: {
+                    self.BackgroudImage.image = self.imageSet[1]
+                    self.BackgroudImage.alpha = 0.2
                 })
             }
             //print("Result : 2")
         case maxHeight/3*2..<maxHeight:
-            if  BackgroudView.backgroundColor != UIColor.brown{
-                UIView.animate(withDuration: 0.5, animations: {
-                    self.BackgroudView.backgroundColor = UIColor.brown
+            if  BackgroudImage.image != imageSet[2]{
+                BackgroudImage.alpha = 0.0
+                UIView.animate(withDuration: 0.8, animations: {
+                    self.BackgroudImage.image = self.imageSet[2]
+                    self.BackgroudImage.alpha = 0.2
                 })
             }
             //print("Result : 3")
         default:
             break
         }
-    }*/
+    }
     
     @IBAction func DismissView(_ sender: Any) {
         dismiss(animated: true, completion: nil)

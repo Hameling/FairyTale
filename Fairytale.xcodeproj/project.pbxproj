@@ -23,6 +23,8 @@
 		6E25E3D721735BD400A99597 /* SCLAlertView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E25E3DB21735BD400A99597 /* SCLAlertView.framework */; };
 		6EA3963C2195419400A65423 /* keywords.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6EA3963B2195419300A65423 /* keywords.bundle */; };
 		950A13FE218DE4240038605F /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950A13FD218DE4240038605F /* SideMenuController.swift */; };
+		954B705121A53A4A0049F815 /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954B705021A53A4A0049F815 /* SetupView.swift */; };
+		9566225C21ABEC50009ABA44 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9566225B21ABEC50009ABA44 /* StringExtension.swift */; };
 		95865C7D2185CD1E00C0C9A2 /* TextBoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95865C7C2185CD1E00C0C9A2 /* TextBoardCell.swift */; };
 		95865C802186135600C0C9A2 /* fairytales.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 95865C7F2186135600C0C9A2 /* fairytales.bundle */; };
 		95EFF52C218ED218000BE101 /* FontSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EFF52B218ED218000BE101 /* FontSizeView.swift */; };
@@ -58,6 +60,10 @@
 		6EA3963B2195419300A65423 /* keywords.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = keywords.bundle; sourceTree = "<group>"; };
 		8A4DF2A075874F749BC26498 /* Pods_Fairytale.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fairytale.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		950A13FD218DE4240038605F /* SideMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
+		954B705021A53A4A0049F815 /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		9566225821AB872A009ABA44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		9566225A21AB8AC8009ABA44 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		9566225B21ABEC50009ABA44 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		95865C7C2185CD1E00C0C9A2 /* TextBoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBoardCell.swift; sourceTree = "<group>"; };
 		95865C7F2186135600C0C9A2 /* fairytales.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = fairytales.bundle; sourceTree = "<group>"; };
 		95EFF52B218ED218000BE101 /* FontSizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizeView.swift; sourceTree = "<group>"; };
@@ -125,6 +131,7 @@
 				6E25E3B22170639B00A99597 /* LaunchScreen.storyboard */,
 				6E25E3B52170639B00A99597 /* Info.plist */,
 				6E25E3B02170639B00A99597 /* Assets.xcassets */,
+				9566225B21ABEC50009ABA44 /* StringExtension.swift */,
 			);
 			path = Fairytale;
 			sourceTree = "<group>";
@@ -133,11 +140,20 @@
 			isa = PBXGroup;
 			children = (
 				6E25E3CF2173540300A99597 /* Main.storyboard */,
+				954B704F21A53A170049F815 /* Setup */,
 				95EFF534218F0895000BE101 /* Infomation */,
 				95EFF533218F087A000BE101 /* Contents */,
 				95EFF52A218ED1F3000BE101 /* PopUp */,
 			);
 			path = MainView;
+			sourceTree = "<group>";
+		};
+		954B704F21A53A170049F815 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				954B705021A53A4A0049F815 /* SetupView.swift */,
+			);
+			path = Setup;
 			sourceTree = "<group>";
 		};
 		95865C7E2185CD2900C0C9A2 /* Class */ = {
@@ -232,7 +248,7 @@
 					6E25E3A52170639A00A99597 = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 1010;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -241,7 +257,6 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 			);
 			mainGroup = 6E25E39D2170639A00A99597;
@@ -296,6 +311,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Fairytale/Pods-Fairytale-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ActiveLabel/ActiveLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/BetterSegmentedControl/BetterSegmentedControl.framework",
 				"${BUILT_PRODUCTS_DIR}/Presentr/Presentr.framework",
 				"${BUILT_PRODUCTS_DIR}/PySwiftyRegex/PySwiftyRegex.framework",
 				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
@@ -304,6 +320,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActiveLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BetterSegmentedControl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Presentr.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PySwiftyRegex.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
@@ -327,7 +344,9 @@
 				95EFF530218ED240000BE101 /* ScreenLockView.swift in Sources */,
 				95EFF52E218ED231000BE101 /* BrightChangeView.swift in Sources */,
 				950A13FE218DE4240038605F /* SideMenuController.swift in Sources */,
+				954B705121A53A4A0049F815 /* SetupView.swift in Sources */,
 				95EFF536218F3989000BE101 /* BookCollectionCell.swift in Sources */,
+				9566225C21ABEC50009ABA44 /* StringExtension.swift in Sources */,
 				6E25E3C02173226400A99597 /* Keyword.swift in Sources */,
 				6E25E3C22173228F00A99597 /* Setting.swift in Sources */,
 				95EFF538218F3B4C000BE101 /* SelectingView.swift in Sources */,
@@ -354,6 +373,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				6E25E3D02173540300A99597 /* Base */,
+				9566225821AB872A009ABA44 /* en */,
+				9566225A21AB8AC8009ABA44 /* ko */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -365,6 +386,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -411,7 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -424,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -464,7 +487,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -477,13 +500,15 @@
 			baseConfigurationReference = FCBF0E2658F12C2D5380DEE2 /* Pods-Fairytale.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: SeungHan Paek (686H4D7CLF)";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 686H4D7CLF;
 				INFOPLIST_FILE = Fairytale/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.Sm.Apps.Fairytale;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Fairytale;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -494,13 +519,15 @@
 			baseConfigurationReference = 034DDF491E513C39FDB4F248 /* Pods-Fairytale.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: SeungHan Paek (686H4D7CLF)";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 686H4D7CLF;
 				INFOPLIST_FILE = Fairytale/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.Sm.Apps.Fairytale;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Fairytale;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

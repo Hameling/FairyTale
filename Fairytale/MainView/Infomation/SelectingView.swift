@@ -20,9 +20,9 @@ class SelectingView: UIViewController, UICollectionViewDataSource, UICollectionV
     override func viewDidLoad() {
         super.viewDidLoad()
         SelectView.backgroundColor =  UIColor(white: 1, alpha: 0)
-        //SelectView.backgroundColor = UIColor(patternImage: UIImage(named:"backgroud.png")!)
         self.SelectView.dataSource = self
         self.SelectView.delegate = self
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -31,6 +31,10 @@ class SelectingView: UIViewController, UICollectionViewDataSource, UICollectionV
         UIView.animate(withDuration: 1.5, animations: {
             self.SelectView.alpha = 1.0
         })
+        if defaults.string(forKey: "mainLang") != nil{
+           // performSegue(withIdentifier: "SetupSeuge", sender: nil)
+        }
+        
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -39,7 +43,11 @@ class SelectingView: UIViewController, UICollectionViewDataSource, UICollectionV
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         
         if let sectionHeader = SelectView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "SCSection", for: indexPath) as? SelectViewSection{
+            if indexPath.section == 0{
+                sectionHeader.SectionName.textColor = UIColor.black
+            }
             sectionHeader.SectionName.text = Subject_Info.subject_list[indexPath.section]
+            
             return sectionHeader
         }
         return UICollectionReusableView()
@@ -52,7 +60,10 @@ class SelectingView: UIViewController, UICollectionViewDataSource, UICollectionV
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = self.SelectView.dequeueReusableCell(withReuseIdentifier: "Collection_cell", for: indexPath) as! BookCollectionCell
         cell.CollectionImage.image = Subject_Info.logo_image[indexPath.section][indexPath.row]
-        //cell.CollectionName.text = Subject_Info.book_list[indexPath.section][indexPath.row]
+        cell.CollectionImage.layer.shadowColor = UIColor.darkGray.cgColor
+        cell.CollectionImage.layer.shadowOpacity = 0.8
+        cell.CollectionImage.layer.shadowOffset = CGSize(width: 0.0 , height: 3.0)
+        cell.CollectionImage.layer.masksToBounds = false
         return cell
     }
     

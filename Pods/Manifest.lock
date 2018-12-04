@@ -1,5 +1,6 @@
 PODS:
   - ActiveLabel (1.0.1)
+  - BetterSegmentedControl (1.0.1)
   - Presentr (1.3.2)
   - PySwiftyRegex (2.0.1)
   - SCLAlertView (0.8)
@@ -7,6 +8,7 @@ PODS:
 
 DEPENDENCIES:
   - ActiveLabel
+  - BetterSegmentedControl (~> 1.0)
   - Presentr
   - PySwiftyRegex
   - SCLAlertView
@@ -15,6 +17,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - ActiveLabel
+    - BetterSegmentedControl
     - Presentr
     - PySwiftyRegex
     - SCLAlertView
@@ -22,11 +25,12 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   ActiveLabel: b8b2396fe25308d563601437d6605bf691c3b5db
+  BetterSegmentedControl: 8cac1f243b5cc747f44c9da655c975d5322243fa
   Presentr: 797ae6ec8904eaba4ec58a4c2065bd66e31569ea
   PySwiftyRegex: 18ee6bede93377ce133ca9c1e8cc0446ac988be4
   SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
   SideMenu: 1dcaabce84538c53325c287f7fe62999379a641c
 
-PODFILE CHECKSUM: 1f5e0c3ce3970f0b970ffecb8203b392a351821a
+PODFILE CHECKSUM: 77f004a6955b0a418983e29ae8b9cb0392d4033c
 
 COCOAPODS: 1.5.3

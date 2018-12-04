@@ -1,6 +1,6 @@
 
 /* Class = "UIBarButtonItem"; title = "back"; ObjectID = "04T-6u-IEK"; */
-"04T-6u-IEK.title" = "back";
+"04T-6u-IEK.title" = "뒤로가기";
 
 /* Class = "UILabel"; text = "Sub Language Area"; ObjectID = "AGS-ox-Gcc"; */
 "AGS-ox-Gcc.text" = "Sub Language Area";
@@ -36,7 +36,7 @@
 "Z8F-Kp-VnR.normalTitle" = "저장";
 
 /* Class = "UILabel"; text = "Font Size"; ObjectID = "ZXM-qw-TMr"; */
-"ZXM-qw-TMr.text" = "Font Size";
+"ZXM-qw-TMr.text" = "폰트 크기 변경";
 
 /* Class = "UILabel"; text = "Sub"; ObjectID = "daB-NG-bwc"; */
 "daB-NG-bwc.text" = "Sub";
@@ -57,7 +57,7 @@
 "iMI-ep-g6W.text" = "Main";
 
 /* Class = "UILabel"; text = "Brightness"; ObjectID = "jVV-S1-0rU"; */
-"jVV-S1-0rU.text" = "Brightness";
+"jVV-S1-0rU.text" = "화면 밝기 변경";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "nde-yy-fuW"; */
 "nde-yy-fuW.text" = "Label";
@@ -75,4 +75,14 @@
 "rwm-1c-ZT4.text" = "On/Off";
 
 /* Class = "UILabel"; text = "ScreenLock"; ObjectID = "xfa-yC-CMe"; */
-"xfa-yC-CMe.text" = "ScreenLock";
+"xfa-yC-CMe.text" = "화면 꺼짐 잠금";
+
+
+"초급" = "초급";
+"중급" = "중급";
+"고급" = "고급";
+
+"Font Size" = "폰트 크기"
+"Brightness" = "화면 밝기"
+"ScreenLock" = "화면 꺼짐 잠금"
+"Language" = "언어 선택"

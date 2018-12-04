@@ -76,3 +76,13 @@
 
 /* Class = "UILabel"; text = "ScreenLock"; ObjectID = "xfa-yC-CMe"; */
 "xfa-yC-CMe.text" = "ScreenLock";
+
+
+"초급" = "Basic";
+"중급" = "Midium";
+"고급" = "Hard";
+
+"Font Size" = "Font Size"
+"Brightness" = "Brightness"
+"ScreenLock" = "ScreenLock"
+"Language" = "Language"

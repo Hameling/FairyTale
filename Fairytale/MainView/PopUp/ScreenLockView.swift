@@ -16,7 +16,7 @@ class ScreenLockView: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         BackgroudView.backgroundColor = UIColor.white.withAlphaComponent(0.9)
-        defaults.set(false, forKey: "ScreenLockStat")
+        
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -30,5 +30,6 @@ class ScreenLockView: UIViewController {
             UIApplication.shared.isIdleTimerDisabled = false
             defaults.set(!defaults.bool(forKey: "ScreenLockStat"), forKey: "ScreenLockStat")
         }
+        NotificationCenter.default.post(name: Notification.Name(rawValue: "ReloadSideMenu"), object: nil)
     }
 }

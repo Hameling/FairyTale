@@ -20,8 +20,6 @@ class TextBoardCell: UITableViewCell {
     @IBOutlet weak var mainLabel: CustomLabel!
     @IBOutlet weak var subLabel: CustomLabel!
     
-
-    
     func addText(main:String, sub:String){
         mainLabel.text = main
         subLabel.text = sub
@@ -35,13 +33,46 @@ class TextBoardCell: UITableViewCell {
             mainLabel.customColor[pattens[i]] = UIColor.orange
             mainLabel.customSelectedColor[pattens[i]] = UIColor.gray
             mainLabel.handleCustomTap(for: pattens[i]){ element in
-                SCLAlertView().showInfo(kwds[i].keyword_name, subTitle: kwds[i].keyword_contents + "\n" + kwds[i].russia_contents, colorStyle: 0xF9690E)
+                SCLAlertView().showInfo(kwds[i].keyword_name, subTitle: self.setSubTitle("main", index: i) + "\n" + self.setSubTitle("sub", index: i),colorStyle: 0xF9690E)
             }
+            
+            subLabel.enabledTypes.append(pattens[i])
+            subLabel.customColor[pattens[i]] = UIColor.orange
+            subLabel.customSelectedColor[pattens[i]] = UIColor.gray
+            subLabel.handleCustomTap(for: pattens[i]){ element in
+                SCLAlertView().showInfo(kwds[i].keyword_name, subTitle: self.setSubTitle("sub", index: i) + "\n" + self.setSubTitle("main", index: i),colorStyle: 0xF9690E)
+            }
+            
         }
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
+    func setSubTitle(_ type:String, index:Int)->String{
+        var keyname : String
+        var result = ""
+        if type == "main"{
+            keyname = "mainLang"
+        }
+        else if type == "sub"{
+            keyname = "subLang"
+        }
+        else {
+            keyname = " "
+        }
+        
+        switch defaults.string(forKey: keyname)!{
+        case "kor":
+            result = kwds[index].keyword_contents
+        case "rus":
+            result = kwds[index].russia_contents
+        case "jap":
+            result = kwds[index].japan_contents
+        default:
+            break;
+        }
 
+        return result
+    }
 }
