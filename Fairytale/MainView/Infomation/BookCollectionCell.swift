@@ -16,4 +16,5 @@ class SelectViewSection: UICollectionReusableView{
 
 class BookCollectionCell: UICollectionViewCell {
     @IBOutlet weak var CollectionImage: UIImageView!
+    @IBOutlet weak var CollectionLabel: UILabel!
 }
