@@ -12,6 +12,7 @@
         <!--Setup View-->
         <scene sceneID="fJ3-ZG-r4u">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TvU-Qb-okD" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="NNC-gy-dM0" customClass="SetupView" customModule="Fairytale" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yJd-3O-0iS">
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
@@ -62,7 +63,6 @@
                         <outlet property="mainlang_seg" destination="cQi-P3-YgG" id="sRi-po-NgV"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TvU-Qb-okD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="85" y="-1730"/>
         </scene>
